@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper investigates the effect of Laplacian normalization in\ngraph-based semi-supervised learning.  To this end, we consider\nmulti-class transductive learning on graphs with Laplacian\nregularization.  Generalization bounds are derived using geometric\nproperties of the graph.  Specifically, by introducing a definition of\ngraph cut from learning theory, we obtain generalization bounds that\ndepend on the Laplacian regularizer.  We then use this analysis to\nbetter understand the role of graph Laplacian matrix normalization.\nUnder assumptions that the cut is small, we derive near-optimal\nnormalization factors by approximately minimizing the generalization\nbounds.  The analysis reveals the limitations of the standard\ndegree-based normalization method in that the resulting normalization\nfactors can vary significantly within each connected component with\nthe same class label, which may cause inferior generalization\nperformance. Our theory also suggests a remedy that does not suffer\nfrom this problem.  Experiments confirm the superiority of the\nnormalization scheme motivated by learning theory on artificial and\nreal-world data sets.",
+    "authors": [
+        "Rie Johnson",
+        "Tong Zhang"
+    ],
+    "id": "johnson07a",
+    "issue": 52,
+    "pages": [
+        1489,
+        1517
+    ],
+    "title": "On the Effectiveness of Laplacian Normalization for Graph Semi-supervised Learning",
+    "volume": "8",
+    "year": "2007"
+}

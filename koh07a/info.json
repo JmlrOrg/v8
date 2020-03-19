@@ -1,0 +1,17 @@
+{
+    "abstract": "Logistic regression with <i>l</i><sub>1</sub> regularization has been proposed as\na promising method for feature selection in classification problems.\nIn this paper we describe an efficient interior-point method for\nsolving large-scale <i>l</i><sub>1</sub>-regularized logistic regression\nproblems. Small problems with up to a thousand or so features and\nexamples can be solved in seconds on a PC; medium sized problems,\nwith tens of thousands of features and examples, can be solved in\ntens of seconds (assuming some sparsity in the data). A variation on\nthe basic method, that uses a preconditioned conjugate gradient\nmethod to compute the search step, can solve very large problems,\nwith a million features and examples (e.g., the 20 Newsgroups data\nset), in a few minutes, on a PC. Using warm-start\ntechniques, a good approximation of the entire regularization path\ncan be computed much more efficiently than by solving a family of\nproblems independently.",
+    "authors": [
+        "Kwangmoo Koh",
+        "Seung-Jean Kim",
+        "Stephen Boyd"
+    ],
+    "id": "koh07a",
+    "issue": 53,
+    "pages": [
+        1519,
+        1555
+    ],
+    "title": "An Interior-Point Method for Large-Scale l1-Regularized Logistic Regression",
+    "volume": "8",
+    "year": "2007"
+}

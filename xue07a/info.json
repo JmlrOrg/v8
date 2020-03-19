@@ -1,0 +1,18 @@
+{
+    "abstract": "Consider the problem of learning logistic-regression models for\nmultiple classification tasks, where the training data set for each\ntask is not drawn from the same statistical distribution. In such a\nmulti-task learning (MTL) scenario, it is necessary to identify\ngroups of similar tasks that should be learned jointly. Relying on a\nDirichlet process (DP) based statistical model to learn the extent\nof similarity between classification tasks, we develop\ncomputationally efficient algorithms for two different forms of the\nMTL problem. First, we consider a <i>symmetric</i> multi-task\nlearning (SMTL) situation in which classifiers for multiple tasks\nare learned jointly using a variational Bayesian (VB) algorithm.\nSecond, we consider an <i>asymmetric</i> multi-task learning (AMTL)\nformulation in which the posterior density function from the SMTL\nmodel parameters (from previous tasks) is used as a prior for a new\ntask: this approach has the significant advantage of not requiring\nstorage and use of all previous data from prior tasks. The AMTL\nformulation is solved with a simple Markov Chain Monte Carlo (MCMC)\nconstruction. Experimental results on two real life MTL problems\nindicate that the proposed algorithms: (a) automatically identify\nsubgroups of related tasks whose training data appear to be drawn\nfrom similar distributions; and (b) are more accurate than simpler\napproaches such as single-task learning, pooling of data across all\ntasks, and simplified approximations to DP.",
+    "authors": [
+        "Ya Xue",
+        "Xuejun Liao",
+        "Lawrence Carin",
+        "Balaji Krishnapuram"
+    ],
+    "id": "xue07a",
+    "issue": 1,
+    "pages": [
+        35,
+        63
+    ],
+    "title": "Multi-Task Learning for Classification with Dirichlet Process Priors",
+    "volume": "8",
+    "year": "2007"
+}

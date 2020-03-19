@@ -1,0 +1,17 @@
+{
+    "abstract": "Quadratic discriminant analysis is a common tool for classification,\nbut estimation of the Gaussian parameters can be ill-posed. This\npaper contains theoretical and algorithmic contributions to Bayesian\nestimation for quadratic discriminant analysis. A distribution-based\nBayesian classifier is derived using information geometry. Using a\ncalculus of variations approach to define a functional Bregman\ndivergence for distributions, it is shown that the Bayesian\ndistribution-based classifier that minimizes the expected Bregman\ndivergence of each class conditional distribution also minimizes the\nexpected misclassification cost. A series approximation is used to\nrelate regularized discriminant analysis to Bayesian discriminant\nanalysis. A new Bayesian quadratic discriminant analysis classifier\nis proposed where the prior is defined using a coarse estimate of\nthe covariance based on the training data; this classifier is termed\nBDA7. Results on benchmark data sets and simulations show that BDA7\nperformance is competitive with, and in some cases significantly\nbetter than, regularized quadratic discriminant analysis and the\ncross-validated Bayesian quadratic discriminant analysis classifier\nQuadratic Bayes.",
+    "authors": [
+        "Santosh Srivastava",
+        "Maya R. Gupta",
+        "B&#233;la A. Frigyik"
+    ],
+    "id": "srivastava07a",
+    "issue": 45,
+    "pages": [
+        1277,
+        1305
+    ],
+    "title": "Bayesian Quadratic Discriminant Analysis",
+    "volume": "8",
+    "year": "2007"
+}

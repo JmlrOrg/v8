@@ -1,0 +1,19 @@
+{
+    "abstract": "Co-clustering, or simultaneous clustering of rows and columns of a\ntwo-dimensional data matrix, is rapidly becoming a powerful data\nanalysis technique. Co-clustering has enjoyed wide success in varied\napplication domains such as text clustering, gene-microarray\nanalysis, natural language processing and image, speech and video\nanalysis. In this paper, we introduce a partitional co-clustering\nformulation that is driven by the search for a good matrix\napproximation---every co-clustering is associated with an\napproximation of the original data matrix and the quality of\nco-clustering is determined by the approximation error.  We allow\nthe approximation error to be measured using a large class of loss\nfunctions called Bregman divergences that include squared Euclidean\ndistance and KL-divergence as special cases. In addition, we permit\nmultiple structurally different co-clustering schemes that preserve\nvarious linear statistics of the original data matrix.  To\naccomplish the above tasks, we introduce a new <i>minimum Bregman\ninformation</i> (MBI) principle that simultaneously generalizes the\n<i>maximum entropy</i> and <i>standard least squares</i> principles,\nand leads to a matrix approximation that is optimal among all\ngeneralized additive models in a certain natural parameter space.\nAnalysis based on this principle yields an elegant meta algorithm,\nspecial cases of which include most previously known alternate\nminimization based clustering algorithms such as kmeans and\nco-clustering algorithms such as information\ntheoretic (Dhillon et al., 2003b) and minimum sum-squared residue\nco-clustering (Cho et al., 2004). To demonstrate the generality and\nflexibility of our co-clustering framework, we provide examples and\nempirical evidence on a variety of problem domains and also describe\nnovel co-clustering applications such as missing value prediction\nand compression of categorical data matrices.",
+    "authors": [
+        "Arindam Banerjee",
+        "Inderjit Dhillon",
+        "Joydeep Ghosh",
+        "Srujana Merugu",
+        "Dharmendra S. Modha"
+    ],
+    "id": "banerjee07a",
+    "issue": 66,
+    "pages": [
+        1919,
+        1986
+    ],
+    "title": "A Generalized Maximum Entropy Approach to Bregman Co-clustering and Matrix Approximation",
+    "volume": "8",
+    "year": "2007"
+}

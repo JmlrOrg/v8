@@ -1,0 +1,17 @@
+{
+    "abstract": "A novel relational learning approach that tightly integrates the\nna&#239;ve Bayes learning scheme with the inductive logic programming\nrule-learner FOIL is presented.  In contrast to previous\ncombinations that have employed na&#239;ve Bayes only for\npost-processing the rule sets, the presented approach employs the\nna&#239;ve Bayes criterion to guide its search directly.  The proposed\ntechnique is implemented in the <small>N</small>FOIL and <small>T</small>FOIL\nsystems, which employ standard na&#239;ve Bayes and tree augmented\nna&#239;ve Bayes models respectively.  We show that these integrated\napproaches to probabilistic model and rule learning outp erform\npost-processing approaches. They also yield significantly more\naccurate models than si mple rule learning and are competitive with\nmore sophisticated ILP systems.",
+    "authors": [
+        "Niels Landwehr",
+        "Kristian Kersting",
+        "Luc De Raedt"
+    ],
+    "id": "landwehr07a",
+    "issue": 17,
+    "pages": [
+        481,
+        507
+    ],
+    "title": "Integrating Na\u00c3\u00afve Bayes and FOIL",
+    "volume": "8",
+    "year": "2007"
+}

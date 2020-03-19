@@ -1,0 +1,17 @@
+{
+    "abstract": "We develop gain adaptation methods that improve convergence of the\nkernel Hebbian algorithm (KHA) for iterative kernel PCA\n(Kim et al., 2005).  KHA has a scalar gain parameter which is either\nheld constant or decreased according to a predetermined annealing\nschedule, leading to slow convergence. We accelerate it by\nincorporating the reciprocal of the current estimated eigenvalues as\npart of a gain vector. An additional normalization term then allows us\nto eliminate a tuning parameter in the annealing schedule.  Finally we\nderive and apply stochastic meta-descent (SMD) gain vector adaptation\n(Schraudolph, 1999, 2002) in reproducing kernel Hilbert\nspace to further speed up convergence. Experimental results on kernel\nPCA and spectral clustering of USPS digits, motion capture and image\ndenoising, and image super-resolution tasks confirm that our methods\nconverge substantially faster than conventional KHA. To demonstrate\nscalability, we perform kernel PCA on the entire MNIST data set.",
+    "authors": [
+        "Simon G&#252;nter",
+        "Nicol N. Schraudolph",
+        "S. V. N. Vishwanathan"
+    ],
+    "id": "guenter07a",
+    "issue": 65,
+    "pages": [
+        1893,
+        1918
+    ],
+    "title": "Fast Iterative Kernel Principal Component Analysis",
+    "volume": "8",
+    "year": "2007"
+}

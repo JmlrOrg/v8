@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nThe standard by which binary classifiers are usually judged,\nmisclassification error, assumes equal costs of misclassifying the\ntwo classes or, equivalently, classifying at the 1/2 quantile of the\nconditional class probability function P[y=1|x].  Boosted\nclassification trees are known to perform quite well for such\nproblems. In this article we consider the use of standard,\noff-the-shelf boosting for two more general\nproblems: 1) classification with unequal costs or, equivalently,\nclassification at quantiles other than 1/2, and 2) estimation of the\nconditional class probability function <i>P</i>[<i>y</i>=1|<i>x</i>].  \nWe first examine\nwhether the latter problem, estimation of <i>P</i>[<i>y</i>=1|<i>x</i>], can be solved\nwith LogitBoost, and with AdaBoost when combined with a natural link\nfunction.  The answer is negative: both approaches are often\nineffective because they overfit <i>P</i>[<i>y</i>=1|<i>x</i>] even though they perform\nwell as classifiers. A major negative point of the present article\nis the disconnect between class probability estimation and\nclassification.\n</p><p>\nNext we consider the practice of over/under-sampling of the two\nclasses.  We present an algorithm that uses AdaBoost in\nconjunction with <b>O</b>ver/<b>U</b>nder-<b>S</b>ampling and \n<b>J</b>ittering of the data \"JOUS-Boost\".  This algorithm is\nsimple, yet successful, and it preserves the advantage of relative\nprotection against overfitting, but for arbitrary\nmisclassification costs and, equivalently, arbitrary quantile\nboundaries.  We then use collections of classifiers obtained from\na grid of quantiles to form estimators of class probabilities. The\nestimates of the class probabilities compare favorably to those\nobtained by a variety of methods across both simulated and real\ndata sets.\n</p>",
+    "authors": [
+        "David Mease",
+        "Abraham J. Wyner",
+        "Andreas Buja"
+    ],
+    "id": "mease07a",
+    "issue": 15,
+    "pages": [
+        409,
+        439
+    ],
+    "title": "Boosted Classification Trees and Class Probability/Quantile Estimation",
+    "volume": "8",
+    "year": "2007"
+}

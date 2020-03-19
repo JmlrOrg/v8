@@ -1,0 +1,17 @@
+{
+    "abstract": "Factor analysis and discriminant analysis are often used as\ncomplementary approaches to identify linear components in two\ndimensional data arrays. For three dimensional arrays, which may\norganize data in dimensions such as space, time, and trials, the\nopportunity arises to combine these two approaches.  A new method,\nBilinear Discriminant Component Analysis (BDCA), is derived and\ndemonstrated in the context of functional brain imaging data for which\nit seems ideally suited. The work suggests to identify a subspace\nprojection which optimally separates classes while ensuring that each\ndimension in this space captures an independent contribution to the\ndiscrimination.",
+    "authors": [
+        "Mads Dyrholm",
+        "Christoforos Christoforou",
+        "Lucas C. Parra"
+    ],
+    "id": "dyrholm07a",
+    "issue": 38,
+    "pages": [
+        1097,
+        1111
+    ],
+    "title": "Bilinear Discriminant Component Analysis",
+    "volume": "8",
+    "year": "2007"
+}

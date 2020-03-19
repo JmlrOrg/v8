@@ -1,0 +1,17 @@
+{
+    "abstract": "A common assumption in supervised learning is that the input points in\nthe training set follow the <i>same</i> probability distribution as\nthe input points that will be given in the future test phase.\nHowever, this assumption is not satisfied, for example, when the\noutside of the training region is extrapolated.  The situation where\nthe training input points and test input points follow\n<i>different</i> distributions while the conditional distribution of\noutput values given input points is unchanged is called the\n<i>covariate shift</i>.  Under the covariate shift, standard model\nselection techniques such as cross validation do not work as desired\nsince its unbiasedness is no longer maintained.  In this paper, we\npropose a new method called <i>importance weighted cross\nvalidation</i> (IWCV), for which we prove its unbiasedness even under the\ncovariate shift.  The IWCV procedure is the only one that can be\napplied for unbiased classification under covariate shift, whereas\nalternatives to IWCV exist for regression.  The usefulness of our\nproposed method is illustrated by simulations, and furthermore\ndemonstrated in the brain-computer interface, where strong\nnon-stationarity effects can be seen between training and test\nsessions.",
+    "authors": [
+        "Masashi Sugiyama",
+        "Matthias Krauledat",
+        "Klaus-Robert M&#252;ller"
+    ],
+    "id": "sugiyama07a",
+    "issue": 34,
+    "pages": [
+        985,
+        1005
+    ],
+    "title": "Covariate Shift Adaptation by Importance Weighted Cross Validation",
+    "volume": "8",
+    "year": "2007"
+}

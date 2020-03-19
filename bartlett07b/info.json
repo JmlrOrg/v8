@@ -1,0 +1,16 @@
+{
+    "abstract": "The risk, or probability of error, of the classifier produced by the\nAdaBoost algorithm is investigated. In particular, we consider the\nstopping strategy to be used in AdaBoost to achieve universal\nconsistency. We show that provided AdaBoost is stopped after\n<i>n</i><sup>1-<i>&#949;</i></sup> iterations---for sample size <i>n</i> and \n<i>&#949;</i> &#8712; (0,1)---the\nsequence of risks of the classifiers it produces approaches the\nBayes risk.",
+    "authors": [
+        "Peter L. Bartlett",
+        "Mikhail Traskin"
+    ],
+    "id": "bartlett07b",
+    "issue": 77,
+    "pages": [
+        2347,
+        2368
+    ],
+    "title": "AdaBoost is Consistent",
+    "volume": "8",
+    "year": "2007"
+}

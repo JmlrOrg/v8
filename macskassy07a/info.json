@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper is about classifying entities that are interlinked with\nentities for which the class is known.  After surveying prior work, we\npresent NetKit, a modular toolkit for classification in networked\ndata, and a case-study of its application to networked data used in\nprior machine learning research.  NetKit is based on a node-centric\nframework in which classifiers comprise a local classifier, a\nrelational classifier, and a collective inference procedure.  Various\nexisting node-centric relational learning algorithms can be\ninstantiated with appropriate choices for these components, and new\ncombinations of components realize new algorithms.  The case study\nfocuses on univariate network classification, for which the only\ninformation used is the structure of class linkage in the network\n(i.e., only links and some class labels).  To our knowledge, no work\npreviously has evaluated systematically the power of class-linkage\nalone for classification in machine learning benchmark data sets.  The\nresults demonstrate that very simple network-classification models\nperform quite well---well enough that they should be used regularly as\nbaseline classifiers for studies of learning with networked data.  The\nsimplest method (which performs remarkably well) highlights the close\ncorrespondence between several existing methods introduced for\ndifferent purposes---that is, Gaussian-field classifiers, Hopfield\nnetworks, and relational-neighbor classifiers.  The case study also\nshows that there are two sets of techniques that are preferable in\ndifferent situations, namely when few versus many labels are known\ninitially.  We also demonstrate that link selection plays an important\nrole similar to traditional feature selection.",
+    "authors": [
+        "Sofus A. Macskassy",
+        "Foster Provost"
+    ],
+    "id": "macskassy07a",
+    "issue": 33,
+    "pages": [
+        935,
+        983
+    ],
+    "title": "Classification in Networked Data: A Toolkit and a Univariate Case Study",
+    "volume": "8",
+    "year": "2007"
+}

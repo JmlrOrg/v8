@@ -1,0 +1,17 @@
+{
+    "abstract": "We study the problem of learning multiple tasks in parallel within the\nonline learning framework.  On each online round, the algorithm\nreceives an instance for each of the parallel tasks and responds by\npredicting the label of each instance. We consider the case where the\npredictions made on each round all contribute toward a common\ngoal. The relationship between the various tasks is defined by a\nglobal loss function, which evaluates the overall quality of the\nmultiple predictions made on each round. Specifically, each individual\nprediction is associated with its own loss value, and then these\nmultiple loss values are combined into a single number using the\nglobal loss function. We focus on the case where the global loss\nfunction belongs to the family of absolute norms, and present several\nonline learning algorithms for the induced problem. We prove\nworst-case relative loss bounds for all of our algorithms, and\ndemonstrate the effectiveness of our approach on a large-scale\nmulticlass-multilabel text categorization problem.",
+    "authors": [
+        "Ofer Dekel",
+        "Philip M. Long",
+        "Yoram Singer"
+    ],
+    "id": "dekel07a",
+    "issue": 74,
+    "pages": [
+        2233,
+        2264
+    ],
+    "title": "Online Learning of Multiple Tasks with a Shared Loss",
+    "volume": "8",
+    "year": "2007"
+}

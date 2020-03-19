@@ -1,0 +1,15 @@
+{
+    "abstract": "The concepts of similarity and distance are crucial in data mining. We\nconsider the problem of defining the distance between two data sets by\ncomparing summary statistics computed from the data sets. The initial\ndefinition of our distance is based on geometrical notions of certain\nsets of distributions. We show that this distance can be computed in\ncubic time and that it has several intuitive properties. We also show\nthat this distance is the unique Mahalanobis distance satisfying\ncertain assumptions. We also demonstrate that if we are dealing with\nbinary data sets, then the distance can be represented naturally by\ncertain parity functions, and that it can be evaluated in linear\ntime. Our empirical tests with real world data show that the distance\nworks well.",
+    "authors": [
+        "Nikolaj Tatti"
+    ],
+    "id": "tatti07a",
+    "issue": 4,
+    "pages": [
+        131,
+        154
+    ],
+    "title": "Distances between Data Sets Based on Summary Statistics",
+    "volume": "8",
+    "year": "2007"
+}

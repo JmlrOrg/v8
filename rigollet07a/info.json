@@ -1,0 +1,15 @@
+{
+    "abstract": "We consider semi-supervised classification when part of the available data\nis unlabeled. These unlabeled data can be useful for the classification\nproblem when we make an assumption relating the behavior of the regression\nfunction to that of the marginal distribution.  Seeger (2000) proposed the\nwell-known <i>cluster assumption</i> as a reasonable one.  We propose a\nmathematical formulation of this assumption and a method based on\ndensity level sets estimation that takes advantage of it to achieve fast rates\nof convergence both in the number of unlabeled examples and the number of\nlabeled examples.",
+    "authors": [
+        "Philippe Rigollet"
+    ],
+    "id": "rigollet07a",
+    "issue": 48,
+    "pages": [
+        1369,
+        1392
+    ],
+    "title": "Generalization Error Bounds in Semi-supervised Classification Under the Cluster Assumption",
+    "volume": "8",
+    "year": "2007"
+}

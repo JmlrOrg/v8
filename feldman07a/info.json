@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWe consider the problems of attribute-efficient PAC learning of two\nwell-studied concept classes: parity functions and DNF expressions\nover {0,1}<sup><i>n</i></sup>. We show that attribute-efficient learning of parities\nwith respect to the uniform distribution is equivalent to decoding\nhigh-rate random linear codes from low number of errors, a\nlong-standing open problem in coding theory. This is the first\nevidence that attribute-efficient learning of a natural PAC learnable\nconcept class can be computationally hard.  </p>\n\n<p> An algorithm is said to use membership queries (MQs) \n<i>non-adaptively</i> if the points at which the algorithm asks MQs do not\ndepend on the target concept. Using a simple non-adaptive parity\nlearning algorithm and a modification of Levin's algorithm for\nlocating a weakly-correlated parity due to Bshouty et al. (1999), we give the\nfirst non-adaptive and attribute-efficient algorithm for learning DNF\nwith respect to the uniform distribution. Our algorithm runs in time\n<i>&#213;</i>(<i>ns</i><sup>4</sup>/&#949;) and uses <i>&#213;</i>(<i>s</i><sup>4</sup>\n&#183; log<sup>2</sup><i>n</i>/&#949;) non-adaptive MQs, where <i>s</i> is the number of\nterms in the shortest DNF representation of the target concept. The\nalgorithm improves on the best previous algorithm for learning DNF\n(of Bshouty et al., 1999) and can also be easily modified to tolerate\nrandom persistent classification noise in MQs.\n</p>",
+    "authors": [
+        "Vitaly Feldman"
+    ],
+    "id": "feldman07a",
+    "issue": 50,
+    "pages": [
+        1431,
+        1460
+    ],
+    "title": "Attribute-Efficient and Non-adaptive Learning of Parities and DNF Expressions",
+    "volume": "8",
+    "year": "2007"
+}

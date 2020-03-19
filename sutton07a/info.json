@@ -1,0 +1,17 @@
+{
+    "abstract": "In sequence modeling, we often wish to represent complex interaction\nbetween labels, such as when performing multiple, cascaded labeling\ntasks on the same sequence, or when long-range dependencies exist.  We\npresent <i>dynamic conditional random fields (DCRFs)</i>, a\ngeneralization of linear-chain conditional random fields (CRFs) in\nwhich each time slice contains a set of state variables and edges---a\ndistributed state representation as in dynamic Bayesian networks\n(DBNs)---and parameters are tied across slices.  Since exact inference\ncan be intractable in such models, we perform approximate inference\nusing several schedules for belief propagation, including tree-based\nreparameterization (TRP). On a natural-language chunking task, we show\nthat a DCRF performs better than a series of linear-chain CRFs,\nachieving comparable performance using only half the training data.\nIn addition to maximum conditional likelihood, we present two\nalternative approaches for training DCRFs: <i>marginal likelihood\ntraining</i>, for when we are primarily interested in predicting only a\nsubset of the variables, and <i>cascaded training</i>, for when we\nhave a distinct data set for each state variable, as in transfer\nlearning.  We evaluate marginal training and cascaded training on both\nsynthetic data and real-world text data, finding that marginal\ntraining can improve accuracy when uncertainty exists over the latent\nvariables, and that for transfer learning, a DCRF trained in a\ncascaded fashion performs better than a linear-chain CRF that predicts\nthe final task directly.",
+    "authors": [
+        "Charles Sutton",
+        "Andrew McCallum",
+        "Khashayar Rohanimanesh"
+    ],
+    "id": "sutton07a",
+    "issue": 24,
+    "pages": [
+        693,
+        723
+    ],
+    "title": "Dynamic Conditional Random Fields: Factorized Probabilistic Models for Labeling and Segmenting Sequence Data",
+    "volume": "8",
+    "year": "2007"
+}

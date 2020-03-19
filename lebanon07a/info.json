@@ -1,0 +1,17 @@
+{
+    "abstract": "The popular bag of words assumption represents a document as a\nhistogram of word occurrences. While computationally efficient, such a\nrepresentation is unable to maintain any sequential information. We\npresent an effective sequential document representation that goes\nbeyond the bag of words representation and its <i>n</i>-gram\nextensions. This representation uses local smoothing to embed\ndocuments as smooth curves in the multinomial simplex thereby\npreserving valuable sequential information. In contrast to bag of\nwords or <i>n</i>-grams, the new representation is able to robustly\ncapture medium and long range sequential trends in the document. We\ndiscuss the representation and its geometric properties and\ndemonstrate its applicability for various text processing tasks.",
+    "authors": [
+        "Guy Lebanon",
+        "Yi Mao",
+        "Joshua Dillon"
+    ],
+    "id": "lebanon07a",
+    "issue": 79,
+    "pages": [
+        2405,
+        2441
+    ],
+    "title": "The Locally Weighted Bag of Words Framework for Document Representation",
+    "volume": "8",
+    "year": "2007"
+}

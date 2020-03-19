@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nMany statistical machine learning algorithms\nminimize either an empirical loss function as\nin AdaBoost, or a penalized empirical loss as in Lasso or SVM.\nA single regularization tuning parameter controls the trade-off\nbetween fidelity to the data and generalizability, or\nequivalently between bias and variance.\nWhen this tuning parameter changes, a regularization \"path\" of solutions\nto the minimization problem is generated, and the whole path is needed to select\na tuning parameter to optimize the prediction or interpretation performance.\nAlgorithms such as homotopy-Lasso or LARS-Lasso and Forward Stagewise Fitting (FSF) \n(aka e-Boosting) are of great interest because\nof their resulted sparse models for interpretation in addition to prediction.\n</p>\n<p>\nIn this paper, we propose the BLasso algorithm that\nties the FSF (e-Boosting) algorithm with the Lasso method\nthat minimizes the <i>L</i><sub>1</sub> penalized <i>L</i><sub>2</sub> loss. \nBLasso is derived\nas a coordinate descent method with a fixed stepsize applied to the\ngeneral Lasso loss function (<i>L</i><sub>1</sub> penalized convex loss). It\nconsists of both a forward step and a backward step. The forward\nstep is similar to e-Boosting or FSF, but the\nbackward step is new and revises the FSF (or e-Boosting) path to approximate the\nLasso path. In the cases of a finite number of base learners and a\nbounded Hessian of the loss function,\nthe BLasso path is shown to converge to the Lasso path when\nthe stepsize goes to zero. For\ncases with a larger number of base learners than the sample size\nand when the true model is sparse, our simulations indicate\nthat the BLasso model estimates\nare sparser than those from FSF with comparable\nor slightly better prediction performance, and that\nthe the discrete stepsize of BLasso and FSF has\nan additional regularization effect in terms\nof prediction and sparsity.\nMoreover, we introduce the Generalized BLasso\nalgorithm\nto minimize a general convex loss penalized by a general convex\nfunction. Since the (Generalized) BLasso relies only on differences not derivatives,\nwe conclude that it provides a class of\nsimple and easy-to-implement algorithms\nfor tracing the regularization or solution paths of penalized minimization problems.\n</p>",
+    "authors": [
+        "Peng Zhao",
+        "Bin Yu"
+    ],
+    "id": "zhao07a",
+    "issue": 88,
+    "pages": [
+        2701,
+        2726
+    ],
+    "title": "Stagewise Lasso",
+    "volume": "8",
+    "year": "2007"
+}

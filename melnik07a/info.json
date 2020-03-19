@@ -1,0 +1,17 @@
+{
+    "abstract": "Rankboost has been shown to be an effective algorithm for combining\nranks. However, its ability to generalize well and not overfit is\ndirectly related to the choice of weak learner, in the sense that\nregularization of the rank function is due to the regularization properties\nof its weak learners. We present a regularization property called\n<i>consistency in preference and confidence</i> that mathematically\ntranslates into monotonic concavity, and describe a new weak ranking\nlearner (MWGR) that generates ranking functions with this property.\nIn experiments combining ranks from multiple face recognition algorithms\nand an experiment combining text information retrieval systems, rank\nfunctions using MWGR proved superior to binary weak learners.",
+    "authors": [
+        "Ofer Melnik",
+        "Yehuda Vardi",
+        "Cun-Hui Zhang"
+    ],
+    "id": "melnik07a",
+    "issue": 28,
+    "pages": [
+        791,
+        812
+    ],
+    "title": "Concave Learners for Rankboost",
+    "volume": "8",
+    "year": "2007"
+}

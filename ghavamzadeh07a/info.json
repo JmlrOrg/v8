@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nHierarchical reinforcement learning (HRL) is a general framework for\nscaling reinforcement learning (RL) to problems with large state and\naction spaces by using the task (or action) structure to restrict the \nspace of policies. Prior work in HRL including HAMs, options, MAXQ, \nand PHAMs has been limited to the <i>discrete-time discounted \nreward semi-Markov decision process</i> (SMDP) model. The average \nreward optimality criterion has been recognized to be more appropriate \nfor a wide class of continuing tasks than the discounted framework. \nAlthough average reward RL has been studied for decades, prior work \nhas been largely limited to flat policy representations. \n</p>\n<p>\nIn this paper, we develop a framework for HRL based on the \n<i>average reward</i> optimality criterion. We investigate two formulations\nof HRL based on the average reward SMDP model, both for discrete-time\nand continuous-time. These formulations correspond to two notions of\noptimality that have been previously explored in HRL: <i>hierarchical \noptimality</i> and <i>recursive optimality</i>. We present algorithms that \nlearn to find hierarchically and recursively optimal average reward \npolicies under discrete-time and continuous-time average reward \nSMDP models.\n</p>\n<p>\nWe use two automated guided vehicle (AGV) scheduling tasks as\nexperimental testbeds to study the empirical performance of the\nproposed algorithms. The first problem is a relatively simple AGV\nscheduling task, in which the hierarchically and recursively optimal \npolicies are different. We compare the proposed algorithms with three \nother HRL methods, including a hierarchically optimal discounted \nreward algorithm and a recursively optimal discounted reward algorithm \non this problem. The second problem is a larger AGV scheduling task. \nWe model this problem using both discrete-time and continuous-time \nmodels. We use a hierarchical task decomposition in which the \nhierarchically and recursively optimal policies are the same for this \nproblem. We compare the performance of the proposed algorithms \nwith a hierarchically optimal discounted reward algorithm and a \nrecursively optimal discounted reward algorithm, as well as a \nnon-hierarchical average reward algorithm. The results show that \nthe proposed hierarchical average reward algorithms converge to \nthe same performance as their discounted reward counterparts. \n</p>",
+    "authors": [
+        "Mohammad Ghavamzadeh",
+        "Sridhar Mahadevan"
+    ],
+    "id": "ghavamzadeh07a",
+    "issue": 86,
+    "pages": [
+        2629,
+        2669
+    ],
+    "title": "Hierarchical Average Reward Reinforcement Learning",
+    "volume": "8",
+    "year": "2007"
+}

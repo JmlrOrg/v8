@@ -1,0 +1,19 @@
+{
+    "abstract": "Predicting a protein's structural class from its amino acid sequence\nis a fundamental problem in computational biology.  Recent machine\nlearning work in this domain has focused on developing new input space\nrepresentations for protein sequences, that is, string kernels, some\nof which give state-of-the-art performance for the binary prediction\ntask of discriminating between one class and all the others.  However,\nthe underlying protein classification problem is in fact a huge\nmulti-class problem, with over 1000 protein folds and even more\nstructural subcategories organized into a hierarchy.  To handle this\nchallenging many-class problem while taking advantage of progress on\nthe binary problem, we introduce an adaptive code approach in the\noutput space of one-vs-the-rest prediction scores.  Specifically, we\nuse a ranking perceptron algorithm to learn a weighting of binary\nclassifiers that improves multi-class prediction with respect to a\nfixed set of output codes. We use a cross-validation set-up to\ngenerate output vectors for training, and we define codes that capture\ninformation about the protein structural hierarchy.  Our code\nweighting approach significantly improves on the standard one-vs-all\nmethod for two difficult multi-class protein classification problems:\nremote homology detection and fold recognition.  Our algorithm also\noutperforms a previous code learning approach due to Crammer and\nSinger, trained here using a perceptron, when the dimension of the\ncode vectors is high and the number of classes is large.  Finally, we\ncompare against PSI-BLAST, one of the most widely used methods in\nprotein sequence analysis, and find that our method strongly\noutperforms it on every structure classification problem that we\nconsider.  Supplementary data and source code are available at\n<tt><a href=\"http://www.cs.columbia.edu/compbio/adaptive\">http://www.cs.columbia.edu/compbio/adaptive</a></tt>.",
+    "authors": [
+        "Iain Melvin",
+        "Eugene Ie",
+        "Jason Weston",
+        "William Stafford Noble",
+        "Christina Leslie"
+    ],
+    "id": "melvin07a",
+    "issue": 54,
+    "pages": [
+        1557,
+        1581
+    ],
+    "title": "Multi-class Protein Classification Using Adaptive Codes",
+    "volume": "8",
+    "year": "2007"
+}

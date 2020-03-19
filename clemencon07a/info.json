@@ -1,0 +1,16 @@
+{
+    "abstract": "We formulate a local form of the bipartite ranking problem where the goal is to\nfocus on the best instances. We propose a methodology based on the\nconstruction of real-valued scoring functions. We study empirical\nrisk minimization of dedicated statistics which involve empirical\nquantiles of the scores. We first state the problem of \n<i>finding</i> the best instances which can be cast as a classification\nproblem with mass constraint. Next, we develop special performance\nmeasures for the local ranking problem which extend the Area Under\nan ROC Curve (AUC) criterion and describe the optimal\nelements of these new criteria. We also highlight the fact that\nthe goal of ranking the best instances cannot be achieved in a\nstage-wise manner where first, the best instances would be\ntentatively identified and then a standard AUC criterion could be\napplied. Eventually, we state preliminary statistical results for\nthe local ranking problem.",
+    "authors": [
+        "St&#233;phan Cl&#233;men&#231;on",
+        "Nicolas Vayatis"
+    ],
+    "id": "clemencon07a",
+    "issue": 87,
+    "pages": [
+        2671,
+        2699
+    ],
+    "title": "Ranking the Best Instances",
+    "volume": "8",
+    "year": "2007"
+}

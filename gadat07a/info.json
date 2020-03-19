@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce a new model addressing feature selection from a large dictionary\nof variables that can be computed from a signal or an image. Features are\nextracted according to an efficiency criterion, on the basis of specified\nclassification or recognition tasks. This is done by estimating a probability\ndistribution <i>P</i> on the complete dictionary, which distributes its mass\nover the more efficient, or informative, components. We implement a stochastic\ngradient descent algorithm, using the probability as a state variable and\noptimizing a multi-task goodness of fit criterion for classifiers based on\nvariable randomly chosen according to <i>P</i>. We then generate classifiers\nfrom the optimal distribution of weights learned on the training set.\n The method is first tested on\nseveral pattern recognition problems including face detection, handwritten\ndigit recognition, spam classification and micro-array analysis. We then compare\nour approach with other step-wise algorithms like random forests or recursive feature\nelimination.",
+    "authors": [
+        "S&#233;bastien Gadat",
+        "Laurent Younes"
+    ],
+    "id": "gadat07a",
+    "issue": 18,
+    "pages": [
+        509,
+        547
+    ],
+    "title": "A Stochastic Algorithm for Feature Selection in Pattern Recognition",
+    "volume": "8",
+    "year": "2007"
+}

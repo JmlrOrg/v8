@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\n<i>Temporal difference</i> (TD) learning (Sutton and Barto, 1998) has become a\npopular reinforcement learning technique in recent years. TD methods,\nrelying on function approximators to generalize learning to novel\nsituations, have had some experimental successes and have been shown\nto exhibit some desirable properties in theory, but the most basic\nalgorithms have often been found slow in practice. This empirical\nresult has motivated the development of many methods that speed up\nreinforcement learning by modifying a task for the learner or helping\nthe learner better generalize to novel situations. This article\nfocuses on generalizing <i>across tasks</i>, thereby speeding up\nlearning, via a novel form of transfer using handcoded task\nrelationships. We compare learning on a complex task with three\nfunction approximators, a cerebellar model arithmetic computer (CMAC),\nan artificial neural network (ANN), and a radial basis function (RBF),\nand empirically demonstrate that directly transferring the\n<i>action-value function</i> can lead to a dramatic speedup in\nlearning with all three. Using <i>transfer via inter-task mapping</i>\n(<small>TVITM</small>), agents are able to learn one task and then markedly reduce\nthe time it takes to learn a more complex task. Our algorithms are\nfully implemented and tested in the RoboCup soccer Keepaway domain.\n</p><p>\nThis article contains and extends material published in two conference\npapers (Taylor and Stone, 2005; Taylor et al., 2005).\n</p>",
+    "authors": [
+        "Matthew E. Taylor",
+        "Peter Stone",
+        "Yaxin Liu"
+    ],
+    "id": "taylor07a",
+    "issue": 72,
+    "pages": [
+        2125,
+        2167
+    ],
+    "title": "Transfer Learning via Inter-Task Mappings for Temporal Difference Learning",
+    "volume": "8",
+    "year": "2007"
+}

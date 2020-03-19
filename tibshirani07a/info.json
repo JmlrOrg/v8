@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose a method for the classification of more than two classes,\nfrom high-dimensional features.  Our approach is to build a binary\ndecision tree in a top-down manner, using the optimal margin\nclassifier at each split. We implement an exact greedy algorithm for\nthis task, and compare its performance to less greedy procedures based\non clustering of the matrix of pairwise margins. We compare the\nperformance of the \"margin tree\" to the closely related \"all-pairs\"\n(one versus one) support vector machine, and nearest centroids on a\nnumber of cancer microarray data sets.  We also develop a simple\nmethod for feature selection. We find that the margin tree has\naccuracy that is competitive with other methods and offers additional\ninterpretability in its putative grouping of the classes.",
+    "authors": [
+        "Robert Tibshirani",
+        "Trevor Hastie"
+    ],
+    "id": "tibshirani07a",
+    "issue": 22,
+    "pages": [
+        637,
+        652
+    ],
+    "title": "Margin Trees for High-dimensional Classification",
+    "volume": "8",
+    "year": "2007"
+}

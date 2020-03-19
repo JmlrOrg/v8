@@ -1,0 +1,16 @@
+{
+    "abstract": "While the model parameters of a kernel machine are typically given by the\nsolution of a convex optimisation problem, with a single global optimum, the\nselection of good values for the regularisation and kernel parameters is much\nless straightforward.  Fortunately the leave-one-out cross-validation\nprocedure can be performed or a least approximated very efficiently in\nclosed form for a wide variety of kernel learning methods, providing a\nconvenient means for model selection.  Leave-one-out cross-validation based\nestimates of performance, however, generally exhibit a relatively high\nvariance and are therefore prone to over-fitting.  In this paper, we\ninvestigate the novel use of Bayesian regularisation at the second level of\ninference, adding a regularisation term to the model selection criterion\ncorresponding to a prior over the hyper-parameter values, where the additional\nregularisation parameters are integrated out analytically.  Results obtained\non a suite of thirteen real-world and synthetic benchmark data sets clearly\ndemonstrate the benefit of this approach.",
+    "authors": [
+        "Gavin C. Cawley",
+        "Nicola L. C. Talbot"
+    ],
+    "id": "cawley07a",
+    "issue": 30,
+    "pages": [
+        841,
+        861
+    ],
+    "title": "Preventing Over-Fitting during Model Selection via Bayesian Regularisation of the Hyper-Parameters",
+    "volume": "8",
+    "year": "2007"
+}

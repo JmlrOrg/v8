@@ -1,0 +1,17 @@
+{
+    "abstract": "In the authorship verification problem, we are given examples of the\nwriting of a single author and are asked to determine if given long\ntexts were or were not written by this author. We present a new\nlearning-based method for adducing the \"depth of difference\" between\ntwo example sets and offer evidence that this method solves the\nauthorship verification problem with very high accuracy. The\nunderlying idea is to test the rate of degradation of the accuracy of\nlearned models as the best features are iteratively dropped from the\nlearning process.",
+    "authors": [
+        "Moshe Koppel",
+        "Jonathan Schler",
+        "Elisheva Bonchek-Dokow"
+    ],
+    "id": "koppel07a",
+    "issue": 44,
+    "pages": [
+        1261,
+        1276
+    ],
+    "title": "Measuring Differentiability:  Unmasking Pseudonymous Authors",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose a method to improve approximate inference methods by\ncorrecting for the influence of loops in the graphical model. The\nmethod is a generalization and alternative implementation of a recent\nidea from Montanari and Rizzo (2005). It is applicable to arbitrary\nfactor graphs, provided that the size of the Markov blankets is not\ntoo large. It consists of two steps: (i) an approximate inference\nmethod, for example, belief propagation, is used to approximate\n<i>cavity distributions</i> for each variable (i.e., probability\ndistributions on the Markov blanket of a variable for a modified\ngraphical model in which the factors involving that variable have been\nremoved); (ii) all cavity distributions are improved by a\nmessage-passing algorithm that cancels out approximation errors by\nimposing certain consistency constraints.  This loop correction (LC)\nmethod usually gives significantly better results than the original,\nuncorrected, approximate inference algorithm that is used to estimate\nthe effect of loops.  Indeed, we often observe that the loop-corrected\nerror is approximately the square of the error of the uncorrected\napproximate inference method. In this article, we compare different\nvariants of the loop correction method with other approximate\ninference methods on a variety of graphical models, including \"real\nworld\" networks, and conclude that the LC method generally obtains\nthe most accurate results.",
+    "authors": [
+        "Joris M. Mooij",
+        "Hilbert J. Kappen"
+    ],
+    "id": "mooij07a",
+    "issue": 39,
+    "pages": [
+        1113,
+        1143
+    ],
+    "title": "Loop Corrections for Approximate Inference on Factor Graphs",
+    "volume": "8",
+    "year": "2007"
+}

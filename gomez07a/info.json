@@ -1,0 +1,17 @@
+{
+    "abstract": "Recently, Chertkov and Chernyak (2006b) derived an exact expression for the partition sum\n(normalization constant) corresponding to a graphical model, which is an\nexpansion around the belief propagation (BP) solution. By adding correction terms to\nthe BP free energy, one for each \"generalized loop\" in the factor graph, the\nexact partition sum is obtained.\nHowever, the usually enormous number of\ngeneralized loops generally prohibits summation over <i>all</i> correction\nterms.\nIn this article we introduce truncated loop series BP (TLSBP), a particular way\nof truncating the loop series of Chertkov & Chernyak by considering generalized loops\nas compositions of simple loops.\nWe analyze the performance of TLSBP in different scenarios, including the Ising model\non square grids and regular random graphs, and on PROMEDAS, a large probabilistic\nmedical diagnostic system.\nWe show that TLSBP often improves upon the accuracy of the BP solution, at the\nexpense of increased computation time.\nWe also show that the performance of TLSBP strongly depends on\nthe degree of interaction between the variables.\nFor weak interactions, truncating the series leads to significant improvements,\nwhereas for strong interactions it can be ineffective,\neven if a high number of terms is considered.",
+    "authors": [
+        "Vicen&#231; G&#243;mez",
+        "Joris M. Mooij",
+        "Hilbert J. Kappen"
+    ],
+    "id": "gomez07a",
+    "issue": 67,
+    "pages": [
+        1987,
+        2016
+    ],
+    "title": "Truncating the Loop Series Expansion for Belief Propagation",
+    "volume": "8",
+    "year": "2007"
+}

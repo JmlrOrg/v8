@@ -1,0 +1,18 @@
+{
+    "abstract": "We introduce standardised building blocks designed to be used with\nvariational Bayesian learning. The blocks include Gaussian variables,\nsummation, multiplication, nonlinearity, and delay.  A large variety\nof latent variable models can be constructed from these blocks,\nincluding nonlinear and variance models, which are lacking from most\nexisting variational systems.  The introduced blocks are designed to\nfit together and to yield efficient update rules.  Practical\nimplementation of various models is easy thanks to an associated\nsoftware package which derives the learning formulas automatically\nonce a specific model structure has been fixed.  Variational Bayesian\nlearning provides a cost function which is used both for updating the\nvariables of the model and for optimising the model structure.  All\nthe computations can be carried out locally, resulting in linear\ncomputational complexity.  We present experimental results on several\nstructures, including a new hierarchical nonlinear model for variances\nand means. The test results demonstrate the good performance and\nusefulness of the introduced method.",
+    "authors": [
+        "Tapani Raiko",
+        "Harri Valpola",
+        "Markus Harva",
+        "Juha Karhunen"
+    ],
+    "id": "raiko07a",
+    "issue": 5,
+    "pages": [
+        155,
+        201
+    ],
+    "title": "Building Blocks for Variational Bayesian Learning of Latent Variable Models",
+    "volume": "8",
+    "year": "2007"
+}

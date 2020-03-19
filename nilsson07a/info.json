@@ -1,0 +1,18 @@
+{
+    "abstract": "We analyze two different feature selection problems: finding a minimal\nfeature set optimal for classification (<small>MINIMAL-OPTIMAL</small>)\n<i>vs.</i>  finding all features relevant to the target variable\n(<small>ALL-RELEVANT</small>).  The latter problem is motivated by recent\napplications within bioinformatics, particularly gene expression\nanalysis.  For both problems, we identify classes of data\ndistributions for which there exist consistent, polynomial-time\nalgorithms.  We also prove that <small>ALL-RELEVANT</small> is much harder\nthan <small>MINIMAL-OPTIMAL</small> and propose two consistent,\npolynomial-time algorithms.  We argue that the distribution classes\nconsidered are reasonable in many practical cases, so that our results\nsimplify feature selection in a wide range of machine learning tasks.",
+    "authors": [
+        "Roland Nilsson",
+        "Jos&#233; M. Pe&#241;a",
+        "Johan Bj&#246;rkegren",
+        "Jesper Tegn&#233;r"
+    ],
+    "id": "nilsson07a",
+    "issue": 20,
+    "pages": [
+        589,
+        612
+    ],
+    "title": "Consistent Feature Selection for Pattern Recognition in Polynomial Time",
+    "volume": "8",
+    "year": "2007"
+}

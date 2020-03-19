@@ -1,0 +1,16 @@
+{
+    "abstract": "Many feature representations, as in genomics, describe directional\ndata where all feature vectors share a common norm. In other\ncases, as in computer vision, a norm or variance normalization\nstep, where all feature vectors are normalized to a common length,\nis generally used. These representations and pre-processing step\nmap the original data from &#8476;<sup><i>p</i></sup> to the surface of a\nhypersphere <i>S</i><sup><i>p</i>-1</sup>. Such representations should then be\nmodeled using spherical distributions. However, the difficulty\nassociated with such spherical representations has prompted\nresearchers to model their spherical data using Gaussian\ndistributions instead---as if the data were represented in\n&#8476;<sup><i>p</i></sup> rather than <i>S</i><sup><i>p</i>-1</sup>. \nThis opens the question to\nwhether the classification results calculated with the Gaussian\napproximation are the same as those obtained when using the\noriginal spherical distributions. In this paper, we show that in\nsome particular cases (which we named spherical-homoscedastic) the\nanswer to this question is positive. In the more general case\nhowever, the answer is negative. For this reason, we further\ninvestigate the additional error added by the Gaussian modeling.\nWe conclude that the more the data deviates from\nspherical-homoscedastic, the less advisable it is to employ the\nGaussian approximation. We then show how our derivations can be\nused to define optimal classifiers for spherical-homoscedastic\ndistributions. By using a kernel which maps the original space\ninto one where the data adapts to the spherical-homoscedastic\nmodel, we can derive non-linear classifiers with potential\napplications in a large number of problems. We conclude this paper\nby demonstrating the uses of spherical-homoscedasticity in the\nclassification of images of objects, gene expression sequences,\nand text data.",
+    "authors": [
+        "Onur C. Hamsici",
+        "Aleix M. Martinez"
+    ],
+    "id": "hamsici07a",
+    "issue": 55,
+    "pages": [
+        1583,
+        1623
+    ],
+    "title": "Spherical-Homoscedastic Distributions: The Equivalency of Spherical and Normal Distributions in Classification",
+    "volume": "8",
+    "year": "2007"
+}

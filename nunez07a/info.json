@@ -1,0 +1,17 @@
+{
+    "abstract": "In the process of concept learning, target concepts may have portions\nwith short-term changes, other portions may support long-term changes,\nand yet others may not change at all. For this reason several local\nwindows need to be handled. We suggest facing this problem, which\nnaturally exists in the field of concept learning, by allocating\nwindows which can adapt their size to portions of the target\nconcept. We propose an incremental decision tree that is updated with\nincoming examples. Each leaf of the decision tree holds a time window\nand a local performance measure as the main parameter to be\ncontrolled. When the performance of a leaf decreases, the size of its\nlocal window is reduced. This learning algorithm, called OnlineTree2,\nautomatically adjusts its internal parameters in order to face the\ncurrent dynamics of the data stream. Results show that it is\ncomparable to other batch algorithms when facing problems with no\nconcept change, and it is better than evaluated methods in its ability\nto deal with concept drift when dealing with problems in which:\nconcept change occurs at different speeds, noise may be present and,\nexamples may arrive from different areas of the problem domain\n(virtual drift).",
+    "authors": [
+        "Marlon N&#250;&#241;ez",
+        "Ra&#250;l Fidalgo",
+        "Rafael Morales"
+    ],
+    "id": "nunez07a",
+    "issue": 85,
+    "pages": [
+        2595,
+        2628
+    ],
+    "title": "Learning in Environments with Unknown Dynamics: Towards more Robust Concept Learners",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we propose a novel approach for ensemble construction\nbased on the use of nonlinear projections to achieve both accuracy and\ndiversity of individual classifiers. The proposed approach combines\nthe philosophy of boosting, putting more effort on difficult\ninstances, with the basis of the random subspace method. Our main\ncontribution is that instead of using a random subspace, we construct\na projection taking into account the instances which have posed most\ndifficulties to previous classifiers.  In this way, consecutive\nnonlinear projections are created by a neural network trained using\nonly incorrectly classified instances. The feature subspace induced by\nthe hidden layer of this network is used as the input space to a new\nclassifier. The method is compared with bagging and boosting\ntechniques, showing an improved performance on a large set of 44\nproblems from the UCI Machine Learning Repository. An additional study\nshowed that the proposed approach is less sensitive to noise in the\ndata than boosting methods.",
+    "authors": [
+        "Nicol&#225;s Garc&#237;a-Pedrajas",
+        "C&#233;sar Garc&#237;a-Osorio",
+        "Colin Fyfe"
+    ],
+    "id": "garcia-pedrajas07a",
+    "issue": 0,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Nonlinear Boosting Projections for Ensemble Construction",
+    "volume": "8",
+    "year": "2007"
+}

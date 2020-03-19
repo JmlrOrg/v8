@@ -1,0 +1,16 @@
+{
+    "abstract": "Variable selection in clustering analysis is both challenging\nand important. \nIn the context of model-based clustering analysis with\na common diagonal covariance matrix, which is\nespecially suitable for \"high dimension, low sample size\" settings,\nwe propose a penalized likelihood approach\nwith an <i>L</i><sub>1</sub> penalty function, automatically realizing variable\nselection via thresholding and delivering a sparse solution. \nWe derive an EM algorithm to fit our proposed model, and\npropose a modified BIC as a model selection \ncriterion to choose the number of components and the\npenalization parameter.\nA simulation study and an application to gene function\nprediction with gene expression profiles demonstrate the\nutility of our method.",
+    "authors": [
+        "Wei Pan",
+        "Xiaotong Shen"
+    ],
+    "id": "pan07a",
+    "issue": 40,
+    "pages": [
+        1145,
+        1164
+    ],
+    "title": "Penalized Model-Based Clustering with Application to Variable Selection",
+    "volume": "8",
+    "year": "2007"
+}

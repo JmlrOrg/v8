@@ -1,0 +1,16 @@
+{
+    "abstract": "Regularization is an approach to function learning that balances fit\nand smoothness.  In practice, we search for a function <i>f</i> with a\nfinite representation <i>f</i> = &#931;<i><sub>i</sub> c<sub>i</sub></i>\n&#966;<i><sub>i</sub></i>(&#183;).   In most treatments, the <i>c<sub>i</sub></i>\nare the primary objects of study.  We consider <i> value\nregularization</i>, constructing optimization problems in which the\npredicted values at the training points are the primary variables, and\ntherefore the central objects of study.  Although this is a simple\nchange, it has profound consequences.  From convex conjugacy and the\ntheory of Fenchel duality, we derive separate optimality conditions\nfor the regularization and loss portions of the learning problem; this\ntechnique yields clean and short derivations of standard algorithms.\nThis framework is ideally suited to studying many other phenomena at\nthe intersection of learning theory and optimization.  We obtain a\nvalue-based variant of the representer theorem, which underscores the\ntransductive nature of regularization in reproducing kernel Hilbert\nspaces.  We unify and extend previous results on learning kernel\nfunctions, with very simple proofs.  We analyze the use of\nunregularized bias terms in optimization problems, and low-rank\napproximations to kernel matrices, obtaining new results in these\nareas.  In summary, the combination of value regularization and\nFenchel duality are valuable tools for studying the optimization\nproblems in machine learning.",
+    "authors": [
+        "Ryan M. Rifkin",
+        "Ross A. Lippert"
+    ],
+    "id": "rifkin07a",
+    "issue": 16,
+    "pages": [
+        441,
+        479
+    ],
+    "title": "Value Regularization and Fenchel Duality",
+    "volume": "8",
+    "year": "2007"
+}

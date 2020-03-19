@@ -1,0 +1,16 @@
+{
+    "abstract": "There exist many different generalization error bounds in statistical\nlearning theory. Each of these bounds contains an improvement over the\nothers for certain situations or algorithms.  Our goal is, first, to\nunderline the links between these bounds, and second, to combine the\ndifferent improvements into a single bound. In particular we combine\nthe PAC-Bayes approach introduced by McAllester (1998), which is\ninteresting for randomized predictions, with the optimal union bound\nprovided by the generic chaining technique developed by Fernique and\nTalagrand (see Talagrand, 1996), in a way that also takes into account\nthe variance of the combined functions. We also show how this connects\nto Rademacher based bounds.",
+    "authors": [
+        "Jean-Yves Audibert",
+        "Olivier Bousquet"
+    ],
+    "id": "audibert07a",
+    "issue": 31,
+    "pages": [
+        863,
+        889
+    ],
+    "title": "Combining PAC-Bayesian and Generic Chaining Bounds",
+    "volume": "8",
+    "year": "2007"
+}

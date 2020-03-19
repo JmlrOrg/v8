@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nWe describe a novel method for simultaneously detecting faces and\nestimating their pose in real time. The method employs a convolutional\nnetwork to map images of faces to points on a low-dimensional manifold\nparametrized by pose, and images of non-faces to points far away from\nthat manifold. Given an image, detecting a face and estimating its\npose is viewed as minimizing an energy function with respect to the\nface/non-face binary variable and the continuous pose parameters.  The\nsystem is trained to minimize a loss function that drives correct\ncombinations of labels and pose to be associated with lower energy\nvalues than incorrect ones.\n</p><p>\nThe system is designed to handle very large range of poses without\nretraining. The performance of the system was tested on three\nstandard data sets---for frontal views, rotated faces, and \nprofiles---is comparable to previous systems that are designed to handle a\nsingle one of these data sets.\n</p><p>\nWe show that a system trained simuiltaneously for detection and\npose estimation is more accurate on <i>both tasks</i> than similar\nsystems trained for each task separately.\n</p>",
+    "authors": [
+        "Margarita Osadchy",
+        "Yann Le Cun",
+        "Matthew L. Miller"
+    ],
+    "id": "osadchy07a",
+    "issue": 42,
+    "pages": [
+        1197,
+        1215
+    ],
+    "title": "Synergistic Face Detection and Pose Estimation with Energy-Based Models",
+    "volume": "8",
+    "year": "2007"
+}

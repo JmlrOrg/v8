@@ -1,0 +1,16 @@
+{
+    "abstract": "In classification, semi-supervised learning occurs when a\nlarge amount of unlabeled data is available with only a small\nnumber of labeled data. In such a situation, how to enhance\npredictability of classification through unlabeled data is the\nfocus. In this article, we introduce a novel large margin\nsemi-supervised learning methodology, using grouping\ninformation from unlabeled data, together with the concept of\nmargins, in a form of regularization controlling the interplay\nbetween labeled and unlabeled data. Based on this methodology,\nwe develop two specific machines involving support vector machines\nand &#968;-learning, denoted as SSVM and SPSI, through difference\nconvex programming. In addition, we estimate the generalization error\nusing both labeled and unlabeled data, for tuning regularizers.\nFinally, our theoretical and numerical analyses indicate that\nthe proposed methodology achieves the desired objective of\ndelivering high performance in generalization, particularly against\nsome strong performers.",
+    "authors": [
+        "Junhui Wang",
+        "Xiaotong Shen"
+    ],
+    "id": "wang07a",
+    "issue": 64,
+    "pages": [
+        1867,
+        1891
+    ],
+    "title": "Large Margin Semi-supervised Learning",
+    "volume": "8",
+    "year": "2007"
+}

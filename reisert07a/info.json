@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents a new class of matrix valued kernels that are\nideally suited to learn vector valued equivariant functions. Matrix\nvalued kernels are a natural generalization of the common notion of a\nkernel.  We set the theoretical foundations of so called equivariant\nmatrix valued kernels.  We work out several properties of equivariant\nkernels, we give an interpretation of their behavior and show\nrelations to scalar kernels. The notion of (ir)reducibility of group\nrepresentations is transferred into the framework of matrix valued\nkernels. At the end to two exemplary applications are demonstrated.\nWe design a non-linear rotation and translation equivariant filter for\n2D-images and propose an invariant object detector based on the\ngeneralized Hough transform.",
+    "authors": [
+        "Marco Reisert",
+        "Hans Burkhardt"
+    ],
+    "id": "reisert07a",
+    "issue": 14,
+    "pages": [
+        385,
+        408
+    ],
+    "title": "Learning Equivariant Functions with Matrix Valued Kernels",
+    "volume": "8",
+    "year": "2007"
+}

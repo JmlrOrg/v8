@@ -1,0 +1,16 @@
+{
+    "abstract": "A large number of variants of the Perceptron algorithm have been\nproposed and partially evaluated in recent work.  One type of\nalgorithm aims for noise tolerance by replacing the last hypothesis of\nthe perceptron with another hypothesis or a vote among hypotheses.\nAnother type simply adds a margin term to the perceptron in order to\nincrease robustness and accuracy, as done in support vector machines.\nA third type borrows further from support vector machines and\nconstrains the update function of the perceptron in ways that mimic\nsoft-margin techniques. The performance of these algorithms, and the\npotential for combining different techniques, has not been studied in\ndepth.  This paper provides such an experimental study and reveals\nsome interesting facts about the algorithms.  In particular the\nperceptron with margin is an effective method for tolerating noise and\nstabilizing the algorithm.  This is surprising since the margin in\nitself is not designed or used for noise tolerance, and there are no\nknown guarantees for such performance.  In most cases, similar\nperformance is obtained by the voted-perceptron which has the\nadvantage that it does not require parameter selection.  Techniques\nusing soft margin ideas are run-time intensive and do not give\nadditional performance benefits.  The results also highlight the\ndifficulty with automatic parameter selection which is required with\nsome of these variants.",
+    "authors": [
+        "Roni Khardon",
+        "Gabriel Wachman"
+    ],
+    "id": "khardon07a",
+    "issue": 7,
+    "pages": [
+        227,
+        248
+    ],
+    "title": "Noise Tolerant Variants of the Perceptron Algorithm",
+    "volume": "8",
+    "year": "2007"
+}

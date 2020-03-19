@@ -1,0 +1,16 @@
+{
+    "abstract": "Recent work on graphical models for relational data has demonstrated\nsignificant improvements in classification and inference when models\nrepresent the dependencies among instances. Despite its use in\nconventional statistical models, the assumption of instance\nindependence is contradicted by most relational data sets. For\nexample, in citation data there are dependencies among the topics of a\npaper's references, and in genomic data there are dependencies among\nthe functions of interacting proteins. In this paper, we present\nrelational dependency networks (RDNs), graphical models that are\ncapable of expressing and reasoning with such dependencies in a\nrelational setting. We discuss RDNs in the context of relational Bayes\nnetworks and relational Markov networks and outline the relative\nstrengths of RDNs---namely, the ability to represent cyclic\ndependencies, simple methods for parameter estimation, and efficient\nstructure learning techniques. The strengths of RDNs are due to the\nuse of <i>pseudolikelihood</i> learning techniques, which estimate an\nefficient approximation of the full joint distribution. We present\nlearned RDNs for a number of real-world data sets and evaluate the\nmodels in a prediction context, showing that RDNs identify and exploit\ncyclic relational dependencies to achieve significant performance\ngains over conventional conditional models. In addition, we use\nsynthetic data to explore model performance under various relational\ndata characteristics, showing that RDN learning and inference\ntechniques are accurate over a wide range of conditions.",
+    "authors": [
+        "Jennifer Neville",
+        "David Jensen"
+    ],
+    "id": "neville07a",
+    "issue": 23,
+    "pages": [
+        653,
+        692
+    ],
+    "title": "Relational Dependency Networks",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nIn the context of discriminant analysis, Vapnik's statistical\nlearning theory has mainly been developed in three directions:\nthe computation of dichotomies with binary-valued functions,\nthe computation of dichotomies with real-valued functions,\nand the computation of polytomies with functions taking their values\nin finite sets, typically the set of categories itself. \nThe case of classes of vector-valued functions\nused to compute polytomies has seldom been considered independently,\nwhich is unsatisfactory, for three main reasons. First,\nthis case encompasses the other ones.\nSecond, it cannot be treated appropriately\nthrough a na&#239;ve extension of the results devoted to the computation\nof dichotomies. Third, most of the classification problems met in practice\ninvolve multiple categories.\n</p>\n<p>\nIn this paper, a VC theory of large margin multi-category classifiers\nis introduced. Central in this theory are generalized VC dimensions called\nthe &#947;-&#936;-dimensions. First, a uniform convergence bound\non the risk of the classifiers of interest is derived.\nThe capacity measure involved in this bound is a covering number.\nThis covering number can be upper bounded in terms of the\n&#947;-&#936;-dimensions thanks to generalizations of Sauer's lemma, \nas is illustrated\nin the specific case of the scale-sensitive Natarajan dimension.\nA bound on this latter dimension is then computed for the class of functions\non which multi-class SVMs are based. This makes it possible to apply\nthe structural risk minimization inductive principle to those machines.\n</p>",
+    "authors": [
+        "Yann Guermeur"
+    ],
+    "id": "guermeur07a",
+    "issue": 84,
+    "pages": [
+        2551,
+        2594
+    ],
+    "title": "VC Theory of Large Margin Multi-Category Classifiers",
+    "volume": "8",
+    "year": "2007"
+}

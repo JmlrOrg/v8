@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the PC-algorithm (Spirtes et al., 2000) for estimating the\nskeleton and equivalence class of a very high-dimensional directed\nacyclic graph (DAG) with corresponding Gaussian distribution. The\nPC-algorithm is computationally feasible and often very fast for\nsparse problems with many nodes (variables), and it has the attractive\nproperty to automatically achieve high computational efficiency as a\nfunction of sparseness of the true underlying DAG.  We prove uniform\nconsistency of the algorithm for very high-dimensional, sparse DAGs\nwhere the number of nodes is allowed to quickly grow with sample size\n<i>n</i>, as fast as <i>O</i>(<i>n<sup>a</sup></i>) for any\n0 < <i>a</i> < &#8734;. The sparseness assumption is rather minimal\nrequiring only that the neighborhoods in the DAG are of lower order\nthan sample size <i>n</i>.  We also demonstrate the PC-algorithm for\nsimulated data.",
+    "authors": [
+        "Markus Kalisch",
+        "Peter B&#252;hlmann"
+    ],
+    "id": "kalisch07a",
+    "issue": 21,
+    "pages": [
+        613,
+        636
+    ],
+    "title": "Estimating High-Dimensional Directed Acyclic Graphs with the PC-Algorithm",
+    "volume": "8",
+    "year": "2007"
+}

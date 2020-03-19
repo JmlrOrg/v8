@@ -1,0 +1,16 @@
+{
+    "abstract": "Much work has studied the effect of different treatments of missing values on\nmodel induction, but little work has analyzed treatments for the common case\nof missing values at prediction time. This paper first compares several\ndifferent methods---predictive value imputation, the distribution-based\nimputation used by C4.5, and using reduced models---for applying\nclassification trees to instances with missing values (and also shows evidence\nthat the results generalize to bagged trees and to logistic regression). The\nresults show that for the two most popular treatments, each is preferable\nunder different conditions. Strikingly the reduced-models approach, seldom\nmentioned or used, consistently outperforms the other two methods, sometimes\nby a large margin. The lack of attention to reduced modeling may be due in\npart to its (perceived) expense in terms of computation or storage. Therefore,\nwe then introduce and evaluate alternative, hybrid approaches that allow users\nto balance between more accurate but computationally expensive reduced\nmodeling and the other, less accurate but less computationally expensive\ntreatments. The results show that the hybrid methods can scale gracefully to\nthe amount of investment in computation/storage, and that they outperform\nimputation even for small investments.",
+    "authors": [
+        "Maytal Saar-Tsechansky",
+        "Foster Provost"
+    ],
+    "id": "saar-tsechansky07a",
+    "issue": 56,
+    "pages": [
+        1623,
+        1657
+    ],
+    "title": "Handling Missing Values when Applying Classification Models",
+    "volume": "8",
+    "year": "2007"
+}

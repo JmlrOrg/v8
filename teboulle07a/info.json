@@ -1,0 +1,15 @@
+{
+    "abstract": "Center-based partitioning clustering algorithms rely on minimizing\nan appropriately formulated objective function, and different\nformulations suggest different possible algorithms. In this paper,\nwe start with the standard nonconvex and nonsmooth formulation of\nthe partitioning clustering problem. We demonstrate that within\nthis elementary formulation, convex analysis tools and\noptimization theory provide a unifying language and framework to\ndesign, analyze and extend hard and soft center-based clustering\nalgorithms, through a generic algorithm which retains the\ncomputational simplicity of the popular k-means scheme. We show\nthat several well known and more recent center-based clustering\nalgorithms, which have been derived either heuristically, or/and\nhave emerged from intuitive analogies in physics, statistical\ntechniques and information theoretic perspectives can be recovered\nas special cases of the proposed analysis and we streamline their\nrelationships.",
+    "authors": [
+        "Marc Teboulle"
+    ],
+    "id": "teboulle07a",
+    "issue": 2,
+    "pages": [
+        65,
+        102
+    ],
+    "title": "A Unified Continuous Optimization Framework for Center-Based Clustering Methods",
+    "volume": "8",
+    "year": "2007"
+}

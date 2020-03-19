@@ -1,0 +1,17 @@
+{
+    "abstract": "A new clustering approach based on mode identification is developed by\napplying new optimization techniques to a nonparametric density estimator.  A\ncluster is formed by those sample points that ascend to the same local\nmaximum (mode) of the density function.  The path from a point to its\nassociated mode is efficiently solved by an EM-style algorithm, namely, the\nModal EM (MEM).  This method is then extended for hierarchical clustering by\nrecursively locating modes of kernel density estimators with increasing\nbandwidths.  Without model fitting, the mode-based clustering yields a\ndensity description for every cluster, a major advantage of\nmixture-model-based clustering.  Moreover, it ensures that every cluster\ncorresponds to a bump of the density.  The issue of diagnosing clustering\nresults is also investigated.  Specifically, a pairwise separability measure\nfor clusters is defined using the ridgeline between the density bumps of two\nclusters.  The ridgeline is solved for by the Ridgeline EM (REM) algorithm,\nan extension of MEM.  Based upon this new measure, a cluster merging\nprocedure is created to enforce strong separation.  Experiments on simulated\nand real data demonstrate that the mode-based clustering approach tends to\ncombine the strengths of linkage and mixture-model-based clustering.  In\naddition, the approach is robust in high dimensions and when clusters deviate\nsubstantially from Gaussian distributions.  Both of these cases pose\ndifficulty for parametric mixture modeling.  A C package on the new\nalgorithms is developed for public access at\nhttp://www.stat.psu.edu/&#8764;jiali/hmac.",
+    "authors": [
+        "Jia Li",
+        "Surajit Ray",
+        "Bruce G. Lindsay"
+    ],
+    "id": "li07a",
+    "issue": 58,
+    "pages": [
+        1687,
+        1723
+    ],
+    "title": "A Nonparametric Statistical Approach to Clustering via Mode Identification",
+    "volume": "8",
+    "year": "2007"
+}

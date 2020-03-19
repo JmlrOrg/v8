@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nExternal regret compares the performance of an online algorithm,\nselecting among <i>N</i> actions, to the performance of the best of those\nactions in hindsight.  Internal regret compares the loss of an online\nalgorithm to the loss of a modified online algorithm, which\nconsistently replaces one action by another.\n</p><p>\nIn this paper we give a simple generic reduction that, given an\nalgorithm for the external regret problem, converts it to an efficient\nonline algorithm for the internal regret problem.  We provide methods\nthat work both in the <i> full information</i> model, in which the loss\nof every action is observed at each time step, and the <i> partial\ninformation</i> (bandit) model, where at each time step only the loss of\nthe selected action is observed.\nThe importance of internal regret in game theory is due to the\nfact that in a general game, if each player has sublinear internal\nregret, then the empirical frequencies converge to a correlated\nequilibrium.\n</p>\n\n<p>\nFor external regret we also derive a quantitative regret bound for a\nvery general setting of regret, which includes an arbitrary set of\nmodification rules (that possibly modify the online algorithm) and an\narbitrary set of time selection functions (each giving different\nweight to each time step).  The regret for a given time selection and\nmodification rule is the difference between the cost of the online\nalgorithm and the cost of the modified online algorithm, where the\ncosts are weighted by the time selection function.  This can be viewed\nas a generalization of the previously-studied <i>sleeping experts</i>\nsetting.\n</p>",
+    "authors": [
+        "Avrim Blum",
+        "Yishay Mansour"
+    ],
+    "id": "blum07a",
+    "issue": 46,
+    "pages": [
+        1307,
+        1324
+    ],
+    "title": "From External to Internal Regret",
+    "volume": "8",
+    "year": "2007"
+}

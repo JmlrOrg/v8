@@ -1,0 +1,16 @@
+{
+    "abstract": "Maximum concept classes of VC dimension <i>d</i>\nover <i>n</i> domain points have size <i>n</i> C &#8804;<i>d</i>, and this is an upper bound on the size of any concept class\nof VC dimension <i>d</i> over <i>n</i> points.\nWe give a compression scheme for any maximum class that \nrepresents each concept by a subset of up\nto <i>d</i> unlabeled domain points\nand has the property that for\nany sample of a concept in the class,\nthe representative of exactly\none of the concepts consistent with the sample\nis a subset of the domain of the sample.\nThis allows us to compress any sample of a concept\nin the class to a subset of up to <i>d</i> unlabeled sample points such that\nthis subset represents a concept consistent with the\nentire original sample. \nUnlike the previously known compression scheme \nfor maximum classes  (Floyd and Warmuth, 1995) which compresses\nto labeled subsets of the sample of size equal <i>d</i>, \nour new scheme is tight in the sense that the number of possible \nunlabeled compression sets of size at most <i>d</i> equals the \nnumber of concepts in the class.",
+    "authors": [
+        "Dima Kuzmin",
+        "Manfred K. Warmuth"
+    ],
+    "id": "kuzmin07a",
+    "issue": 69,
+    "pages": [
+        2047,
+        2081
+    ],
+    "title": "Unlabeled Compression Schemes for Maximum Classes",
+    "volume": "8",
+    "year": "2007"
+}

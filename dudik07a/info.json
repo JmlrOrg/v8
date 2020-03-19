@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a unified and complete account of maximum entropy\ndensity estimation subject to constraints represented by convex\npotential functions or, alternatively, by convex regularization. We\nprovide fully general performance guarantees and an algorithm with a\ncomplete convergence proof. As special cases, we easily derive\nperformance guarantees for many known regularization types,\nincluding <i>l</i><sub>1</sub>, <i>l</i><sub>2</sub>, <i>l</i><sub>2</sub><sup>2</sup>, and <i>l</i><sub>2</sub> + <i>l</i><sub>2</sub><sup>2</sup> style\nregularization. We propose an algorithm solving a large and general\nsubclass of generalized maximum entropy problems, including all\ndiscussed in the paper, and prove its convergence. Our approach\ngeneralizes and unifies techniques based on information geometry and\nBregman divergences as well as those based more directly on\ncompactness. Our work is motivated by a novel application of maximum\nentropy to species distribution modeling, an important problem in\nconservation biology and ecology. In a set of experiments on\nreal-world data, we demonstrate the utility of maximum entropy in\nthis setting. We explore effects of different feature types, sample\nsizes, and regularization levels on the performance of maxent, and\ndiscuss interpretability of the resulting models.",
+    "authors": [
+        "Miroslav Dud&#237;k",
+        "Steven J. Phillips",
+        "Robert E. Schapire"
+    ],
+    "id": "dudik07a",
+    "issue": 43,
+    "pages": [
+        1217,
+        1260
+    ],
+    "title": "Maximum Entropy Density Estimation with Generalized Regularization and an Application to Species Distribution Modeling",
+    "volume": "8",
+    "year": "2007"
+}

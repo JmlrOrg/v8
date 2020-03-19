@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nFor dimension reduction in the <i>l</i><sub>1</sub> norm, the method of\n<i>Cauchy random projections</i> multiplies\nthe original data matrix <b>A</b> &#8712; &#8477;<sup><i>n&#215;D</i></sup>\nwith a random matrix <b>R</b> &#8712; &#8477;<sup><i>D&#215;k</i></sup> \n(<i>k</i>&#8810;<i>D</i>) whose entries are i.i.d. samples\nof the standard Cauchy <i>C</i>(0,1). Because of the impossibility result,  one can not\nhope to recover the pairwise <i>l</i><sub>1</sub> distances in <b>A</b>\nfrom <b>B</b>=<b>A</b>&#215;<b>R</b>&#8712; &#8477;<sup><i>n&#215;k</i></sup>,\nusing linear estimators without incurring large\nerrors. However, nonlinear estimators are still useful for certain\napplications in data stream computations, information\nretrieval, learning, and data mining.\n</p><p>\nWe study three types of nonlinear estimators: the \n<i>sample median</i> estimators, the <i>geometric mean</i>\nestimators, and the <i>maximum likelihood</i> estimators (MLE). We derive tail bounds\nfor the <i>geometric mean</i> estimators and establish that \n<i>k</i> = <i>O</i>(log <i>n</i> / &#949;<sup>2</sup>) suffices with the constants\nexplicitly given. Asymptotically (as <i>k</i>&#8594;&#8734;), both the \n<i>sample median</i>  and the <i>geometric mean</i> estimators are about \n80% efficient compared to the MLE. We analyze the moments of the MLE\nand propose approximating its distribution of by an\ninverse Gaussian.\n</p>",
+    "authors": [
+        "Ping Li",
+        "Trevor J. Hastie",
+        "Kenneth W. Church"
+    ],
+    "id": "li07b",
+    "issue": 82,
+    "pages": [
+        2497,
+        2532
+    ],
+    "title": "Nonlinear Estimators and Tail Bounds for Dimension Reduction in l1 Using Cauchy Random Projections",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Learning vector quantization (LVQ) schemes constitute intuitive,\npowerful classification heuristics with numerous successful\napplications but, so far, limited theoretical background.  We study\nLVQ rigorously within a simplifying model situation: two competing\nprototypes are trained from a sequence of examples drawn from a\nmixture of Gaussians.  Concepts from statistical physics and the\ntheory of on-line learning allow for an exact description of the\ntraining dynamics in high-dimensional feature space.  The analysis\nyields typical learning curves, convergence properties, and achievable\ngeneralization abilities.  This is also possible for heuristic\ntraining schemes which do not relate to a cost function.  We compare\nthe performance of several algorithms, including Kohonen's LVQ1 and\nLVQ+/-, a limiting case of LVQ2.1.  The former shows close to optimal\nperformance, while LVQ+/- displays divergent behavior. We investigate\nhow early stopping can overcome this difficulty.  Furthermore, we\nstudy a crisp version of robust soft LVQ, which was recently derived\nfrom a statistical formulation.  Surprisingly, it exhibits relatively\npoor generalization.  Performance improves if a window for the\nselection of data is introduced; the resulting algorithm corresponds\nto cost function based LVQ2.  The dependence of these results on the\nmodel parameters, for example, prior class probabilities, is\ninvestigated systematically, simulations confirm our analytical\nfindings.",
+    "authors": [
+        "Michael Biehl",
+        "Anarta Ghosh",
+        "Barbara Hammer"
+    ],
+    "id": "biehl07a",
+    "issue": 12,
+    "pages": [
+        323,
+        360
+    ],
+    "title": "Dynamics and Generalization Ability of LVQ Algorithms",
+    "volume": "8",
+    "year": "2007"
+}

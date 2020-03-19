@@ -1,0 +1,16 @@
+{
+    "abstract": "We show that, given data from a mixture of <i>k</i> well-separated\nspherical Gaussians in <i>&#8476;<sup>d</sup></i>, a simple two-round variant of\nEM will, with high probability, learn the parameters of the Gaussians\nto near-optimal precision, if the dimension is high (<i>d >></i> ln\n<i>k</i>). We relate this to previous theoretical and empirical work on the\nEM algorithm.",
+    "authors": [
+        "Sanjoy Dasgupta",
+        "Leonard Schulman"
+    ],
+    "id": "dasgupta07a",
+    "issue": 6,
+    "pages": [
+        203,
+        226
+    ],
+    "title": "A Probabilistic Analysis of EM for Mixtures of Separated, Spherical Gaussians",
+    "volume": "8",
+    "year": "2007"
+}

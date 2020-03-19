@@ -1,0 +1,16 @@
+{
+    "abstract": "Classification of ordinal data is one of the most important tasks of\nrelation learning. This paper introduces a new machine learning\nparadigm specifically intended for classification problems where the\nclasses have a natural order. The technique reduces the problem of\nclassifying ordered classes to the standard two-class problem. The\nintroduced method is then mapped into support vector machines and\nneural networks. Generalization bounds of the proposed ordinal\nclassifier are also provided. An experimental study with artificial and\nreal data sets, including an application to gene expression analysis,\nverifies the usefulness of the proposed approach.",
+    "authors": [
+        "Jaime S. Cardoso",
+        "Joaquim F. Pinto da Costa"
+    ],
+    "id": "cardoso07a",
+    "issue": 49,
+    "pages": [
+        1393,
+        1429
+    ],
+    "title": "Learning to Classify Ordinal Data: The Data Replication Method",
+    "volume": "8",
+    "year": "2007"
+}

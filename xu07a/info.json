@@ -1,0 +1,16 @@
+{
+    "abstract": "Motivated by  mathematical learning from training data, we introduce\nthe notion of <i>refinable kernels</i>. Various characterizations of\nrefinable kernels are presented. The concept of refinable kernels\nleads to the introduction of <i>wavelet-like reproducing kernels</i>.\nWe also investigate a refinable kernel that forms a Riesz basis. In\nparticular, we characterize refinable translation invariant kernels,\nand refinable kernels defined by refinable functions. This study\nleads to multiresolution analysis of reproducing kernel Hilbert\nspaces.",
+    "authors": [
+        "Yuesheng Xu",
+        "Haizhang Zhang"
+    ],
+    "id": "xu07a",
+    "issue": 70,
+    "pages": [
+        2083,
+        2120
+    ],
+    "title": "Refinable Kernels",
+    "volume": "8",
+    "year": "2007"
+}

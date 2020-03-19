@@ -1,0 +1,30 @@
+{
+    "abstract": "Open source tools have recently reached a level of maturity which\nmakes them suitable for building large-scale real-world systems. At\nthe same time, the field of machine learning has developed a large\nbody of powerful learning algorithms for diverse applications.\nHowever, the true potential of these methods is not used, since\nexisting implementations are not openly shared, resulting in software\nwith low usability, and weak interoperability. We argue that this\nsituation can be significantly improved by increasing incentives for\nresearchers to publish their software under an open source\nmodel. Additionally, we outline the problems authors are faced with\nwhen trying to publish algorithmic implementations of machine learning\nmethods.  We believe that a resource of peer reviewed software\naccompanied by short articles would be highly valuable to both the\nmachine learning and the general scientific community.",
+    "authors": [
+        "S&#246;ren Sonnenburg",
+        "Mikio L. Braun",
+        "Cheng Soon Ong",
+        "Samy Bengio",
+        "Leon Bottou",
+        "Geoffrey Holmes",
+        "Yann LeCun",
+        "Klaus-Robert M&#252;ller",
+        "Fernando Pereira",
+        "Carl Edward Rasmussen",
+        "Gunnar R&#228;tsch",
+        "Bernhard Sch&#246;lkopf",
+        "Alexander Smola",
+        "Pascal Vincent",
+        "Jason Weston",
+        "Robert Williamson"
+    ],
+    "id": "sonnenburg07a",
+    "issue": 80,
+    "pages": [
+        2443,
+        2466
+    ],
+    "title": "The Need for Open Source Software in Machine Learning",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Many classification tasks require estimation of output class\nprobabilities for use as confidence scores or for inference integrated\nwith other models.\nProbability estimates derived from large margin classifiers such as\nsupport vector machines (SVMs) are often unreliable.  We extend SVM\nlarge margin classification to <i>Gini</i>SVM maximum entropy multi-class\nprobability regression.  <i>Gini</i>SVM combines a quadratic (Gini-Simpson)\nentropy based agnostic model with a kernel based similarity model.  A\nform of Huber loss in the <i>Gini</i>SVM primal formulation elucidates a\nconnection to robust estimation, further corroborated by the impulsive\nnoise filtering property of the reverse water-filling procedure to\narrive at normalized classification margins.  The <i>Gini</i>SVM normalized\nclassification margins directly provide estimates of class conditional\nprobabilities, approximating kernel logistic regression (KLR) but at\nreduced computational cost.  As with other SVMs, <i>Gini</i>SVM produces a\nsparse kernel expansion and is trained by solving a quadratic program\nunder linear constraints.  <i>Gini</i>SVM training is efficiently\nimplemented by sequential minimum optimization or by growth\ntransformation on probability functions.\nResults on synthetic and benchmark data, including speaker\nverification and face detection data, show improved classification\nperformance and increased tolerance to imprecision over soft-margin\nSVM and KLR.",
+    "authors": [
+        "Shantanu Chakrabartty",
+        "Gert Cauwenberghs"
+    ],
+    "id": "chakrabartty07a",
+    "issue": 29,
+    "pages": [
+        813,
+        839
+    ],
+    "title": "Gini Support Vector Machine: Quadratic Entropy Based Robust Multi-Class Probability Regression",
+    "volume": "8",
+    "year": "2007"
+}

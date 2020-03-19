@@ -1,0 +1,17 @@
+{
+    "abstract": "In a search problem, an agent uses the membership oracle of a target\nconcept to find a positive example of the concept. In a <i>shaped\nsearch problem</i> the agent is aided by a sequence of increasingly\nrestrictive concepts leading to the target concept (analogous to\nbehavioral shaping). The concepts are given by membership oracles, and\nthe agent has to find a positive example of the target concept while\nminimizing the total number of oracle queries. We show that for the\nconcept class of intervals on the real line an agent using a bounded\nnumber of queries <i>per oracle</i> exists. In contrast, for the\nconcept class of unions of two intervals on the real line no agent\nwith a bounded number of queries per oracle exists. We then\ninvestigate the (amortized) number of queries per oracle needed for\nthe shaped search problem over other concept classes. We explore the\nfollowing methods to obtain efficient agents. For axis-parallel\nrectangles we use a bootstrapping technique to obtain gradually better\napproximations of the target concept. We show that given rectangles\n<i>R</i> &#8838; <i>A</i> &#8838; &#8477;<sup><i>d</i></sup> one can \nobtain a rectangle <i>A'</i> &#8839; <i>R</i>\nwith vol(<i>A'</i>) / vol(<i>R</i>) &#8804; 2, using only <i>O</i>(<i>d</i>\n&#8901; vol(<i>A</i>) / vol(<i>R</i>)) random samples from <i>A</i>.  For ellipsoids of\nbounded eccentricity in &#8477;<sup><i>d</i></sup>  we analyze a deterministic ray-shooting\nprocess which uses a sequence of rays to get close to the\ncentroid. Finally, we use algorithms for generating random points in\nconvex bodies (Dyer et al., 1991; Kannan et al., 1997) to give a randomized agent for the\nconcept class of convex bodies. In the final section, we explore\nconnections between our bootstrapping method and active\nlearning. Specifically, we use the bootstrapping technique for\naxis-parallel rectangles to active learn axis-parallel rectangles\nunder the uniform distribution in <i>O</i>(<i>d</i> ln(1/&#949;)) labeled\nsamples.",
+    "authors": [
+        "Manu Chhabra",
+        "Robert A. Jacobs",
+        "Daniel &#352;tefankovi&#269;"
+    ],
+    "id": "chhabra07a",
+    "issue": 63,
+    "pages": [
+        1835,
+        1865
+    ],
+    "title": "Behavioral Shaping for Geometric Concepts",
+    "volume": "8",
+    "year": "2007"
+}

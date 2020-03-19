@@ -1,0 +1,17 @@
+{
+    "abstract": "Face recognition is a challenging problem due to variations in pose,\nillumination, and expression. Techniques that can provide effective\nfeature representation with enhanced discriminability are crucial.\nWavelets have played an important role in image processing for its\nability to capture localized spatial-frequency information of\nimages. In this paper, we propose a novel <i>local discriminant\ncoordinates</i> method based on wavelet packet for face recognition to\ncompensate for these variations. Traditional wavelet-based methods\nfor face recognition select or operate on the most discriminant\nsubband, and neglect the scattered characteristic of discriminant\nfeatures. The proposed method selects  the most discriminant\ncoordinates uniformly from all spatial frequency subbands to\novercome the deficiency of traditional wavelet-based methods. To\nmeasure the discriminability of coordinates, a new dilation\ninvariant entropy and a maximum <i>a posterior</i> logistic model\nare put forward. Moreover, a new <i>triangle square ratio</i>\ncriterion is used to improve classification using the Euclidean\ndistance and the cosine criterion. Experimental results show that\nthe proposed method is robust for face recognition under variations\nin illumination, pose and expression.",
+    "authors": [
+        "Chao-Chun Liu",
+        "Dao-Qing Dai",
+        "Hong Yan"
+    ],
+    "id": "liu07a",
+    "issue": 41,
+    "pages": [
+        1165,
+        1195
+    ],
+    "title": "Local Discriminant Wavelet Packet Coordinates for Face Recognition",
+    "volume": "8",
+    "year": "2007"
+}

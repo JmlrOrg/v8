@@ -1,0 +1,18 @@
+{
+    "abstract": "Embedding algorithms search for a low dimensional continuous\nrepresentation of data, but most algorithms only handle objects of a\nsingle type for which pairwise distances are specified.  This paper\ndescribes a method for embedding objects of different types, such as\nimages and text, into a single common Euclidean space, based on their\nco-occurrence statistics. The joint distributions are modeled as\nexponentials of Euclidean distances in the low-dimensional embedding\nspace, which links the problem to convex optimization over positive\nsemidefinite matrices.  The local structure of the embedding\ncorresponds to the statistical correlations via random walks in the\nEuclidean space. We quantify the performance of our method on two text\ndata sets, and show that it consistently and significantly outperforms\nstandard methods of statistical correspondence modeling, such as\nmultidimensional scaling, IsoMap and correspondence analysis.",
+    "authors": [
+        "Amir Globerson",
+        "Gal Chechik",
+        "Fernando Pereira",
+        "Naftali Tishby"
+    ],
+    "id": "globerson07a",
+    "issue": 75,
+    "pages": [
+        2265,
+        2295
+    ],
+    "title": "Euclidean Embedding of Co-occurrence Data",
+    "volume": "8",
+    "year": "2007"
+}

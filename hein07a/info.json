@@ -1,0 +1,17 @@
+{
+    "abstract": "Given a sample from a probability measure with support on a\nsubmanifold in Euclidean space one can construct a neighborhood graph\nwhich can be seen as an approximation of the submanifold.  The graph\nLaplacian of such a graph is used in several machine learning methods\nlike semi-supervised learning, dimensionality reduction and\nclustering.  In this paper we determine the pointwise limit of three\ndifferent graph Laplacians used in the literature as the sample size\nincreases and the neighborhood size approaches zero. We show that for\na uniform measure on the submanifold all graph Laplacians have the\nsame limit up to constants. However in the case of a non-uniform\nmeasure on the submanifold only the so called random walk graph\nLaplacian converges to the weighted Laplace-Beltrami operator.",
+    "authors": [
+        "Matthias Hein",
+        "Jean-Yves Audibert",
+        "Ulrike von Luxburg"
+    ],
+    "id": "hein07a",
+    "issue": 47,
+    "pages": [
+        1325,
+        1368
+    ],
+    "title": "Graph Laplacians and their Convergence on Random Neighborhood Graphs",
+    "volume": "8",
+    "year": "2007"
+}

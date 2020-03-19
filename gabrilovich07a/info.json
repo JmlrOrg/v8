@@ -1,0 +1,16 @@
+{
+    "abstract": "Most existing methods for text categorization employ\ninduction algorithms that use the words appearing in the training\ndocuments as features.  While they perform well in many categorization\ntasks, these methods are inherently limited when faced with more\ncomplicated tasks where external knowledge is essential. Recently,\nthere have been efforts to augment these basic features with external\nknowledge, including semi-supervised learning and transfer\nlearning. In this work, we present a new framework for automatic\nacquisition of world knowledge and methods for incorporating it into\nthe text categorization process. Our approach enhances machine\nlearning algorithms with features generated from domain-specific and\ncommon-sense knowledge.  This knowledge is represented by ontologies\nthat contain hundreds of thousands of concepts, further enriched\nthrough controlled Web crawling. Prior to text categorization, a\nfeature generator analyzes the documents and maps them onto\nappropriate ontology concepts that augment the bag of words used in\nsimple supervised learning.  Feature generation is accomplished\nthrough contextual analysis of document text, thus implicitly\nperforming word sense disambiguation.  Coupled with the ability to\ngeneralize concepts using the ontology, this approach addresses two\nsignificant problems in natural language processing---synonymy and\npolysemy. Categorizing documents with the aid of knowledge-based\nfeatures leverages information that cannot be deduced from the\ntraining documents alone. We applied our methodology using the Open\nDirectory Project, the largest existing Web directory built by over\n70,000 human editors. Experimental results over a range of data sets\nconfirm improved performance compared to the bag of words document\nrepresentation.",
+    "authors": [
+        "Evgeniy Gabrilovich",
+        "Shaul Markovitch"
+    ],
+    "id": "gabrilovich07a",
+    "issue": 76,
+    "pages": [
+        2297,
+        2345
+    ],
+    "title": "Harnessing the Expertise of 70,000 Human Editors: Knowledge-Based Feature Generation for Text Categorization",
+    "volume": "8",
+    "year": "2007"
+}

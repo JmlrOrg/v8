@@ -1,0 +1,18 @@
+{
+    "abstract": "We consider a natural framework of learning from correlated data, in\nwhich successive examples used for learning are generated according to\na random walk over the space of possible examples.  A recent paper by\nBshouty et al. (2003) shows that the class of polynomial-size DNF\nformulas is efficiently learnable in this random walk model; this\nresult suggests that the Random Walk model is more powerful than\ncomparable standard models of learning from independent examples, in\nwhich similarly efficient DNF learning algorithms are not known.  We\ngive strong evidence that the Random Walk model is indeed more\npowerful than the standard model, by showing that if any cryptographic\none-way function exists (a universally held belief in cryptography),\nthen there is a class of functions that can be learned efficiently in\nthe Random Walk setting but not in the standard setting where all\nexamples are independent.",
+    "authors": [
+        "Ariel Elbaz",
+        "Homin K. Lee",
+        "Rocco A. Servedio",
+        "Andrew Wan"
+    ],
+    "id": "elbaz07a",
+    "issue": 9,
+    "pages": [
+        277,
+        290
+    ],
+    "title": "Separating Models of Learning from Correlated and Uncorrelated Data",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "One of the nice properties of kernel classifiers such as SVMs is that\nthey often produce sparse solutions. However, the decision functions\nof these classifiers cannot always be used to estimate the conditional\nprobability of the class label. We investigate the relationship\nbetween these two properties and show that these are intimately\nrelated: sparseness does not occur when the conditional probabilities\ncan be unambiguously estimated.  We consider a family of convex loss\nfunctions and derive sharp asymptotic results for the fraction of data\nthat becomes support vectors.  This enables us to characterize the\nexact trade-off between sparseness and the ability to estimate\nconditional probabilities for these loss functions.",
+    "authors": [
+        "Peter L. Bartlett",
+        "Ambuj Tewari"
+    ],
+    "id": "bartlett07a",
+    "issue": 27,
+    "pages": [
+        775,
+        790
+    ],
+    "title": "Sparseness vs Estimating Conditional Probabilities: Some Asymptotic Results",
+    "volume": "8",
+    "year": "2007"
+}

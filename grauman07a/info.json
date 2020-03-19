@@ -1,0 +1,16 @@
+{
+    "abstract": "In numerous domains it is useful to represent a single example by\nthe set of the local features or parts that comprise it. However,\nthis representation poses a challenge to many conventional machine\nlearning techniques, since sets may vary in cardinality and elements\nlack a meaningful ordering. Kernel methods can learn complex\nfunctions, but a kernel over unordered set inputs must somehow solve\nfor correspondences---generally a computationally expensive task\nthat becomes impractical for large set sizes. We present a new fast\nkernel function called the <i>pyramid match</i> that measures\npartial match similarity in time linear in the number of features.\nThe pyramid match maps unordered feature sets to multi-resolution\nhistograms and computes a weighted histogram intersection in order\nto find implicit correspondences based on the finest resolution\nhistogram cell where a matched pair first appears. We show the\npyramid match yields a Mercer kernel, and we prove bounds on its\nerror relative to the optimal partial matching cost. We demonstrate\nour algorithm on both classification and regression tasks, including\nobject recognition, 3-D human pose inference, and time of\npublication estimation for documents, and we show that the proposed\nmethod is accurate and significantly more efficient than current\napproaches.",
+    "authors": [
+        "Kristen Grauman",
+        "Trevor Darrell"
+    ],
+    "id": "grauman07a",
+    "issue": 25,
+    "pages": [
+        725,
+        760
+    ],
+    "title": "The Pyramid Match Kernel: Efficient Learning with Sets of Features",
+    "volume": "8",
+    "year": "2007"
+}

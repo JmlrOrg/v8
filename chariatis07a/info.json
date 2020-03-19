@@ -1,0 +1,15 @@
+{
+    "abstract": "The experimental investigation on the efficient learning of highly\nnon-linear problems by online training, using ordinary feed forward\nneural networks and stochastic gradient descent on the errors computed\nby back-propagation, gives evidence that the most crucial factors for\nefficient training are the hidden units' differentiation, the\nattenuation of the hidden units' interference and the selective\nattention on the parts of the problems where the approximation error\nremains high. In this report, we present global and local selective\nattention techniques and a new hybrid activation function that enables\nthe hidden units to acquire individual receptive fields which may be\nglobal or local depending on the problem's local complexities. The\npresented techniques enable very efficient training on complex\nclassification problems with embedded subproblems.",
+    "authors": [
+        "Aggelos Chariatis"
+    ],
+    "id": "chariatis07a",
+    "issue": 68,
+    "pages": [
+        2017,
+        2045
+    ],
+    "title": "Very Fast Online Learning of Highly Non Linear Problems",
+    "volume": "8",
+    "year": "2007"
+}

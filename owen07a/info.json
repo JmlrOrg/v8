@@ -1,0 +1,15 @@
+{
+    "abstract": "In binary classification problems it is common for\nthe two classes to be imbalanced: one case is very\nrare compared to the other. In this paper we consider\nthe infinitely imbalanced case where one class has a finite\nsample size and the other class's sample size grows without bound.\nFor logistic regression, the infinitely imbalanced case often\nhas a useful solution.  Under mild conditions,\nthe intercept diverges as expected, but\nthe rest of the coefficient vector approaches a non trivial\nand useful limit.\nThat limit can be expressed in terms of exponential tilting\nand is the minimum of a convex objective function.\nThe limiting form of logistic regression suggests a computational\nshortcut for fraud detection problems.",
+    "authors": [
+        "Art B. Owen"
+    ],
+    "id": "owen07a",
+    "issue": 26,
+    "pages": [
+        761,
+        773
+    ],
+    "title": "Infinitely Imbalanced Logistic Regression",
+    "volume": "8",
+    "year": "2007"
+}

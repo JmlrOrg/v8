@@ -1,0 +1,16 @@
+{
+    "abstract": "The majority of existing algorithms for learning decision trees are\ngreedy---a tree is induced top-down, making locally optimal decisions\nat each node.  In most cases, however, the constructed tree is not\nglobally optimal.  Even the few non-greedy learners cannot learn good\ntrees when the concept is difficult.  Furthermore, they require a\nfixed amount of time and are not able to generate a better tree if\nadditional time is available.  We introduce a framework for anytime\ninduction of decision trees that overcomes these problems by trading\ncomputation speed for better tree quality.  Our proposed family of\nalgorithms employs a novel strategy for evaluating candidate splits.\nA biased sampling of the space of consistent trees rooted at an\nattribute is used to estimate the size of the minimal tree under that\nattribute, and an attribute with the smallest expected tree is\nselected.  We present two types of anytime induction algorithms: a\n<i>contract</i> algorithm that determines the sample size on the basis\nof a pre-given allocation of time, and an <i>interruptible</i>\nalgorithm that starts with a greedy tree and continuously improves\nsubtrees by additional sampling.  Experimental results indicate that,\nfor several hard concepts, our proposed approach exhibits good anytime\nbehavior and yields significantly better decision trees when more time\nis available.",
+    "authors": [
+        "Saher Esmeir",
+        "Shaul Markovitch"
+    ],
+    "id": "esmeir07a",
+    "issue": 32,
+    "pages": [
+        891,
+        933
+    ],
+    "title": "Anytime Learning of Decision Trees",
+    "volume": "8",
+    "year": "2007"
+}

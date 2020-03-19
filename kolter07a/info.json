@@ -1,0 +1,16 @@
+{
+    "abstract": "We present an ensemble method for concept drift that dynamically creates\nand removes weighted experts in response to changes in performance.\nThe method, dynamic weighted majority (<small>DWM</small>), uses four mechanisms\nto cope with concept drift:\nIt trains online learners of the ensemble, it weights those learners\nbased on their performance, it removes them, also based on their\nperformance, and it adds new experts based on the global performance\nof the ensemble.\nAfter an extensive evaluation---consisting of five experiments,\neight learners,\nand thirty data sets that varied in type of target\nconcept, size, presence of noise, and the like---we concluded that\n<small>DWM</small> outperformed other learners\nthat only incrementally learn concept descriptions,\nthat maintain and use previously encountered examples, and\nthat employ an unweighted, fixed-size ensemble of experts.",
+    "authors": [
+        "J. Zico Kolter",
+        "Marcus A. Maloof"
+    ],
+    "id": "kolter07a",
+    "issue": 90,
+    "pages": [
+        2755,
+        2790
+    ],
+    "title": "Dynamic Weighted Majority: An Ensemble Method for Drifting Concepts",
+    "volume": "8",
+    "year": "2007"
+}

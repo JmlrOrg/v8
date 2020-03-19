@@ -1,0 +1,16 @@
+{
+    "abstract": "In a recently published paper in JMLR, Tsang et al. (2005) present an\nalgorithm for SVM called Core Vector Machines (CVM) and illustrate its\nperformances through comparisons with other SVM solvers. After reading\nthe CVM paper we were surprised by some of the reported results. In\norder to clarify the matter, we decided to reproduce some of the\nexperiments.  It turns out that to some extent, our results contradict\nthose reported.  Reasons of these different behaviors are given\nthrough the analysis of the stopping criterion.",
+    "authors": [
+        "Ga&#235;lle Loosli",
+        "St&#233;phane Canu"
+    ],
+    "id": "loosli07a",
+    "issue": 10,
+    "pages": [
+        291,
+        301
+    ],
+    "title": "Comments on the ``Core Vector Machines: Fast SVM Training on Very Large Data Sets\"",
+    "volume": "8",
+    "year": "2007"
+}

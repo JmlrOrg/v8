@@ -1,0 +1,16 @@
+{
+    "abstract": "Binary classification is a well studied special case of the classification\nproblem. Statistical properties of binary classifiers, such as consistency,\nhave been investigated in a variety of settings.  Binary classification methods\ncan be generalized in many ways to handle multiple classes. It turns out that\none can lose consistency in generalizing a binary classification method to deal\nwith multiple classes. We study a rich family of multiclass methods and provide\na necessary and sufficient condition for their consistency.  We illustrate our\napproach by applying it to some multiclass methods proposed in the literature.",
+    "authors": [
+        "Ambuj Tewari",
+        "Peter L. Bartlett"
+    ],
+    "id": "tewari07a",
+    "issue": 35,
+    "pages": [
+        1007,
+        1025
+    ],
+    "title": "On the Consistency of Multiclass Classification Methods",
+    "volume": "8",
+    "year": "2007"
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "Support Vector Regression (SVR) for discrete data is considered.\nAn alternative formulation of the representer theorem is derived.\nThis result is based on the newly introduced notion of\npseudoresidual and the use of subdifferential calculus. The\nrepresenter theorem is exploited to analyze the sensitivity\nproperties of &#949;-insensitive SVR and introduce the notion\nof approximate degrees of freedom. The degrees of freedom are\nshown to play a key role in the evaluation of the optimism, that\nis the difference between the expected in-sample error and the\nexpected empirical risk. In this way, it is possible to define a\n<i>C<sub>p</sub></i>-like statistic that can be used for tuning the parameters\nof SVR. The proposed tuning procedure is tested on a simulated\nbenchmark problem and on a real world problem (Boston Housing\ndata set).",
+    "authors": [
+        "Francesco Dinuzzo",
+        "Marta Neve",
+        "Giuseppe De Nicolao",
+        "Ugo Pietro Gianazza"
+    ],
+    "id": "dinuzzo07a",
+    "issue": 81,
+    "pages": [
+        2467,
+        2495
+    ],
+    "title": "On the Representer Theorem and Equivalent Degrees of Freedom of SVR",
+    "volume": "8",
+    "year": "2007"
+}

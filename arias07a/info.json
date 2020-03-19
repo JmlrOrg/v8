@@ -1,0 +1,17 @@
+{
+    "abstract": "The paper introduces L<small>OG</small>A<small>N</small>-H &#151;\na system for learning first-order\nfunction-free Horn expressions from interpretations. The system is\nbased on an algorithm that learns by asking questions and that was\nproved correct in previous work. The current paper shows how the\nalgorithm can be implemented in a practical system, and introduces a\nnew algorithm based on it that avoids interaction and learns from\nexamples only. The L<small>OG</small>A<small>N</small>-H \n system implements these algorithms and\nadds several facilities and optimizations that allow efficient\napplications in a wide range of problems. As one of the important\ningredients, the system includes several fast procedures for\nsolving the subsumption problem, an NP-complete problem that needs\nto be solved many times during the learning process. We describe\nqualitative and quantitative experiments in several domains. The\nexperiments demonstrate that the system can deal with varied\nproblems, large amounts of data, and that it achieves good\nclassification accuracy.",
+    "authors": [
+        "Marta Arias",
+        "Roni Khardon",
+        "J&#233;r&#244;me Maloberti"
+    ],
+    "id": "arias07a",
+    "issue": 19,
+    "pages": [
+        549,
+        587
+    ],
+    "title": "Learning Horn Expressions with LOGAN-H",
+    "volume": "8",
+    "year": "2007"
+}
