@@ -1,10 +1,10 @@
 {
     "abstract": "The naive Bayes classifier has proved to be very effective on many\nreal data applications. Its performance usually benefits from an\naccurate estimation of univariate conditional probabilities and from\nvariable selection. However, although variable selection is a\ndesirable feature, it is prone to overfitting. In this paper, we\nintroduce a Bayesian regularization technique to select the most\nprobable subset of variables compliant with the naive Bayes\nassumption.  We also study the limits of Bayesian model averaging in\nthe case of the naive Bayes assumption and introduce a new weighting\nscheme based on the ability of the models to conditionally compress\nthe class labels. The weighting scheme on the models reduces to a\nweighting scheme on the variables, and finally results in a naive\nBayes classifier with \"soft variable selection\". Extensive\nexperiments show that the compression-based averaged classifier\noutperforms the Bayesian model averaging scheme.",
     "authors": [
-        "Marc Boull&#233;"
+        "Marc Boull{{\\'e}}"
     ],
     "id": "boulle07a",
-    "issue": 57,
+    "issue": 58,
     "pages": [
         1659,
         1685

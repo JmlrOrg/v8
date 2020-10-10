@@ -2,14 +2,14 @@
     "abstract": "Marchand and Shawe-Taylor (2002) have proposed a loss bound for the set covering\nmachine that has the property to depend on the observed fraction\nof positive examples and on what the classifier achieves on the\npositive training examples. We show that this loss bound is\nincorrect. We then propose a loss bound, valid for any\nsample-compression learning algorithm (including the set covering\nmachine), that depends on the observed fraction of positive\nexamples and on what the classifier achieves on them. We also\ncompare numerically the loss bound proposed in this paper with the\nincorrect bound, the original SCM bound and a\nrecently proposed loss bound of  Marchand and Sokolova (2005) (which does not\ndepend on the observed fraction of positive examples) and show\nthat the latter loss bounds can be substantially larger than the\nnew bound in the presence of imbalanced misclassifications.",
     "authors": [
         "Zakria Hussain",
-        "Fran&#231;ois Laviolette",
+        "Fran{\\c{c}}ois Laviolette",
         "Mario Marchand",
         "John Shawe-Taylor",
         "Spencer Charles Brubaker",
         "Matthew D. Mullin"
     ],
     "id": "hussain07a",
-    "issue": 83,
+    "issue": 84,
     "pages": [
         2533,
         2549

@@ -2,10 +2,10 @@
     "abstract": "This paper formalises the idea of substitutability introduced by\nZellig Harris in the 1950s and makes it the basis for a learning\nalgorithm from positive data only for a subclass of context-free\nlanguages. We show that there is a polynomial characteristic set,\nand thus prove polynomial identification in the limit of this\nclass. We discuss the relationship of this class of languages to\nother common classes discussed in grammatical inference. \nIt transpires that it is not necessary to identify constituents in\norder to learn a context-free language&#8212;it is sufficient to identify\nthe\nsyntactic congruence, and the operations of the syntactic monoid can\nbe converted into a context-free grammar. We also\ndiscuss modifications to the algorithm that produces a reduction\nsystem rather than a context-free grammar, that will be much more\ncompact. We discuss the relationship to Angluin's notion of\nreversibility for regular languages. We also demonstrate that an\nimplementation of this algorithm is capable of learning a classic\nexample of structure dependent syntax in English: this constitutes a\nrefutation of an argument that has\nbeen used in support of nativist theories of language.",
     "authors": [
         "Alexander Clark",
-        "R&#233;mi Eyraud"
+        "R{{\\'e}}mi Eyraud"
     ],
     "id": "clark07a",
-    "issue": 59,
+    "issue": 60,
     "pages": [
         1725,
         1745

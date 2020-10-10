@@ -1,11 +1,11 @@
 {
     "abstract": "We propose a PAC-Bayes theorem for the sample-compression setting\nwhere each classifier is described by a compression subset of the\ntraining data and a message string of additional information. This\nsetting, which is the appropriate one to describe many learning\nalgorithms, strictly generalizes the usual data-independent\nsetting where classifiers are represented only by data-independent\nmessage strings (or parameters taken from a continuous set). The\nproposed PAC-Bayes theorem for the sample-compression setting\nreduces to the PAC-Bayes theorem of Seeger (2002) and  Langford (2005)\nwhen the compression subset of each classifier vanishes. For\nposteriors having all their weights on a single sample-compressed\nclassifier, the general risk bound reduces to a bound similar to\nthe tight sample-compression bound proposed in Laviolette et al. (2005).\nFinally, we extend our results to the case where each\nsample-compressed classifier of a data-dependent ensemble may\nabstain of predicting a class label.",
     "authors": [
-        "Fran&#231;ois Laviolette",
+        "Fran{\\c{c}}ois Laviolette",
         "Mario Marchand"
     ],
     "id": "laviolette07a",
-    "issue": 51,
+    "issue": 52,
     "pages": [
         1461,
         1487

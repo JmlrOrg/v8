@@ -1,13 +1,13 @@
 {
     "abstract": "The on-line shortest path problem is considered under various models\nof partial monitoring.  Given a weighted directed acyclic graph whose\nedge weights can change in an arbitrary (adversarial) way, a decision\nmaker has to choose in each round of a game a path between two\ndistinguished vertices such that the loss of the chosen path (defined\nas the sum of the weights of its composing edges) be as small as\npossible.  In a setting generalizing the multi-armed bandit problem,\nafter choosing a path, the decision maker learns only the weights of\nthose edges that belong to the chosen path. For this problem, an\nalgorithm is given whose average cumulative loss in <i>n</i> rounds exceeds\nthat of the best path, matched off-line to the entire sequence of the\nedge weights, by a quantity that is proportional to 1/&#8730;<i>n</i> and\ndepends only polynomially on the number of edges of the graph. The\nalgorithm can be implemented with\ncomplexity that is linear in the number of\nrounds <i>n</i> (i.e., the average complexity per round is constant)\nand in the number of edges.  An extension to the so-called\nlabel efficient setting is also given, in which the decision maker is\ninformed about the weights of the edges corresponding to the chosen\npath at a total of <i>m</i> &#8810;  <i>n</i> time instances.  Another extension is\nshown where the decision maker competes against a time-varying path, a\ngeneralization of the problem of tracking the best expert. A version\nof the multi-armed bandit setting for shortest path is also discussed\nwhere the decision maker learns only the total weight of the chosen path\nbut not the weights of the individual edges on the path. Applications to\nrouting in packet switched networks along with simulation results are\nalso presented.",
     "authors": [
-        "Andr&#225;s Gy&#246;rgy",
-        "Tam&#225;s Linder",
-        "G&#225;bor Lugosi",
-        "Gy&#246;rgy Ottucs&#225;k"
+        "Andr{{\\'a}}s Gy{{\\\"o}}rgy",
+        "Tam{{\\'a}}s Linder",
+        "G{{\\'a}}bor Lugosi",
+        "Gy{{\\\"o}}rgy Ottucs{{\\'a}}k"
     ],
     "id": "gyoergy07a",
-    "issue": 78,
+    "issue": 79,
     "pages": [
         2369,
         2403

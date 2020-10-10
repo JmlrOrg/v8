@@ -2,10 +2,10 @@
     "abstract": "<p>\nIn this paper, we consider the supervised learning task which consists\nin predicting the normalized rank of a numerical variable. We\nintroduce a novel probabilistic approach to estimate the posterior\ndistribution of the target rank conditionally to the predictors. We\nturn this learning task into a model selection problem. For that, we\ndefine a 2D partitioning family obtained by discretizing numerical\nvariables and grouping categorical ones and we derive an analytical\ncriterion to select the partition with the highest posterior\nprobability. We show how these partitions can be used to build\nunivariate predictors and multivariate ones under a naive Bayes\nassumption.\n</p>\n<p>\nWe also propose a new evaluation criterion for probabilistic rank\nestimators. Based on the logarithmic score, we show that such\ncriterion presents the advantage to be minored, which is not the case\nof the logarithmic score computed for probabilistic value estimator.\n</p>\n<p>\nA first set of experimentations on synthetic data shows the good\nproperties of the proposed criterion and of our partitioning approach.\nA second set of experimentations on real data shows competitive\nperformance of the univariate and selective naive Bayes rank\nestimators projected on the value range compared to methods submitted\nto a recent challenge on probabilistic metric regression tasks.\n</p>\n<p>\nOur approach is applicable for all regression problems with\n categorical or numerical predictors. It is particularly interesting\n for those with a high number of predictors as it automatically\n detects the variables which contain predictive information. It builds\n pertinent predictors of the normalized rank of the numerical target\n from one or several predictors.  As the criteria selection is\n regularized by the presence of a prior and a posterior term, it does\n not suffer from overfitting.\n</p>",
     "authors": [
         "Carine Hue",
-        "Marc Boull&#233;"
+        "Marc Boull{{\\'e}}"
     ],
     "id": "hue07a",
-    "issue": 89,
+    "issue": 90,
     "pages": [
         2727,
         2754

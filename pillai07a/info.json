@@ -1,5 +1,5 @@
 {
-    "abstract": "Kernel methods have been very popular in the machine learning\nliterature in the last ten years, mainly in the context of Tikhonov\nregularization algorithms.  In this paper we study a coherent Bayesian\nkernel model based on an integral operator defined as the convolution\nof a kernel with a signed measure.  Priors on the random signed\nmeasures correspond to prior distributions on the functions mapped by\nthe integral operator. We study several classes of signed measures and\ntheir image mapped by the integral operator. In particular, we\nidentify a general class of measures whose image is dense in the\nreproducing kernel Hilbert space (RKHS) induced by the kernel.  A\nconsequence of this result is a function theoretic foundation for\nusing non-parametric prior specifications in Bayesian modeling, such\nas Gaussian process and Dirichlet process prior distributions. We\ndiscuss the construction of priors on spaces of signed measures using\nGaussian and L&#233;vy processes, with the Dirichlet processes being a\nspecial case the latter. Computational issues involved with sampling\nfrom the posterior distribution are outlined for a univariate\nregression and a high dimensional classification problem.",
+    "abstract": "Kernel methods have been very popular in the machine learning\nliterature in the last ten years, mainly in the context of Tikhonov\nregularization algorithms.  In this paper we study a coherent Bayesian\nkernel model based on an integral operator defined as the convolution\nof a kernel with a signed measure.  Priors on the random signed\nmeasures correspond to prior distributions on the functions mapped by\nthe integral operator. We study several classes of signed measures and\ntheir image mapped by the integral operator. In particular, we\nidentify a general class of measures whose image is dense in the\nreproducing kernel Hilbert space (RKHS) induced by the kernel.  A\nconsequence of this result is a function theoretic foundation for\nusing non-parametric prior specifications in Bayesian modeling, such\nas Gaussian process and Dirichlet process prior distributions. We\ndiscuss the construction of priors on spaces of signed measures using\nGaussian and L{{\\'e}}vy processes, with the Dirichlet processes being a\nspecial case the latter. Computational issues involved with sampling\nfrom the posterior distribution are outlined for a univariate\nregression and a high dimensional classification problem.",
     "authors": [
         "Natesh S. Pillai",
         "Qiang Wu",
@@ -8,7 +8,7 @@
         "Robert L. Wolpert"
     ],
     "id": "pillai07a",
-    "issue": 61,
+    "issue": 62,
     "pages": [
         1769,
         1797

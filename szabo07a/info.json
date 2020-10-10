@@ -1,12 +1,12 @@
 {
     "abstract": "We introduce the blind subspace deconvolution (BSSD) problem,\nwhich is the extension of both the blind source deconvolution\n(BSD) and the independent subspace analysis (ISA) tasks. We\nexamine the case of the undercomplete BSSD (uBSSD). Applying\ntemporal concatenation we reduce this problem to ISA. The\nassociated 'high dimensional' ISA problem can be handled by a\nrecent technique called joint f-decorrelation (JFD).\nSimilar decorrelation methods have been used previously for kernel\nindependent component analysis (kernel-ICA). More precisely, the\nkernel canonical correlation (KCCA) technique is a member of this\nfamily, and, as is shown in this paper, the kernel generalized\nvariance (KGV) method can also be seen as a decorrelation method\nin the feature space. These kernel based algorithms will be\nadapted to the ISA task. In the numerical examples, we (i) examine\nhow efficiently the emerging higher dimensional ISA tasks can be\ntackled, and (ii) explore the working and advantages of the\nderived kernel-ISA methods.",
     "authors": [
-        "Zolt&#225;n Szab&#243;",
-        "Barnab&#225;s P&#243;czos",
-        "Andr&#225;s L&#337;rincz"
+        "Zolt{{\\'a}}n Szab{{\\'o}}",
+        "Barnab{{\\'a}}s P{{\\'o}}czos",
+        "Andr{{\\'a}}s L&#337;rincz"
     ],
     "id": "szabo07a",
-    "issue": 37,
+    "issue": 38,
     "pages": [
         1063,
         1095
