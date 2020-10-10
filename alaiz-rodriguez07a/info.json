@@ -1,9 +1,9 @@
 {
     "abstract": "The design of a minimum risk classifier based on data usually\nstems from the stationarity assumption that the conditions during\ntraining and test are the same: the misclassification costs\nassumed during training must be in agreement with real costs, and\nthe same statistical process must have generated both training and\ntest data. Unfortunately, in real world applications, these\nassumptions may not hold. This paper deals with the problem of\ntraining a classifier when prior probabilities cannot be reliably\ninduced from training data. Some strategies based on optimizing\nthe worst possible case (conventional minimax) have been proposed\npreviously in the literature, but they may achieve a robust\nclassification at the expense of a severe performance degradation.\nIn this paper we propose a <i>minimax regret</i>\n(<i>minimax deviation</i>) approach, that seeks to minimize the\nmaximum deviation from the performance of the optimal risk\nclassifier. A neural-based <i>minimax regret</i> classifier for\ngeneral multi-class decision problems is presented.\nExperimental results show its robustness and the advantages in\nrelation to other approaches.",
     "authors": [
-        "Roc&#237;o Alaiz-Rodr&#237;guez",
+        "Roc{{\\'i}}o Alaiz-Rodr{{\\'i}}guez",
         "Alicia Guerrero-Curieses",
-        "Jes&#250;s Cid-Sueiro"
+        "Jes{{\\'u}}s Cid-Sueiro"
     ],
     "id": "alaiz-rodriguez07a",
     "issue": 4,
